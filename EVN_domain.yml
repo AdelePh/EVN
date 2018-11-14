@@ -1,0 +1,2591 @@
+slots:
+  LoaiYeuCau:
+    type: text
+  HD_ThuTuc:
+    type: text
+  HoSo:
+    type: text
+  HuongDan:
+    type: text
+  ChiPhi:
+    type: text
+  ThoiGianGiaiQuyet:
+    type: text
+  matches:
+    type: text
+  ChaoHoi:
+    type: text
+  CamOn:
+    type: text
+  facebook_welcome:
+    type: text
+  DV_Capmoi:
+    type: text
+###DangKy-Mua-Dien-HaAp
+  dienHaAp:
+    type: text
+  dienNganHan:
+    type: text
+  dienNgoaiSinhHoat:
+    type: text
+  dienSinhHoat:
+    type: text
+  sdung_ngoai_mdich_sinhHoat:
+    type: text
+  HDMuaDienNganHan:
+    type: text
+  DKdienNganHan:
+    type: text
+  CapdienNganHan:
+    type: text
+#DangNhap
+  hoiMatKhau:
+    type: text
+  maKH:
+    type: text
+  doiMK:
+    type: text
+  DangNhap:
+    type: text
+  DangXuat:
+    type: text
+  ma_kh:
+    type: text
+#ThayDoi_CongSuat_SD_DienAp
+  NgungGiamMuc_CungcapDien:
+    type: text
+  ThayDoiCongSuatSuDung:
+    type: text
+  TH_KH_ThayDoi_CS:
+    type: text
+#ThanhLy-HopDong-MuaBan
+  ThoiGianBaoTruoc:
+    type: text
+  DieuKienRangBuoc:
+    type: text
+#ThayDoi_ViTri_ThietBiDoDem_HaAp
+  ViTri_LapDat_CongTo:
+    type: text
+##TraCuu-Lich-NgungCapDien
+  KhieuNai:
+    type: text
+##HinhThuc-ThanhToan-TienDien
+  HinhThucThanhToan:
+    type: text
+  HuongDanThanhToan:
+    type: text
+  KenhTiepNhan:
+    type: text
+  HuongDanThayDoi:
+    type: text
+  ThayDoiThanhToan:
+    type: text
+  DiaChiThanhToan:
+    type: text
+  ThanhToan_QuaNganHang:
+    type: text
+  ThanhToan_PGD:
+    type: text
+  NHKhac:
+    type: text
+  NHLienKet:
+    type: text
+  InternetBanking:
+    type: text
+  ToChucTrungGian:
+    type: text
+  DiemThuOffline:
+    type: text
+  ECPAY:
+    type: text
+  PAYOO:
+    type: text
+  MOMO:
+    type: text
+  VTC:
+    type: text
+  DS_NganHang_LienKet:
+    type: text
+  Bankplus:
+    type: text
+  DS_TaiKhoan:
+    type: text
+###YeuCau-TamNgung-SuDungDien
+  DieuKien_TamNgung_SD:
+    type: text
+###YeuCau_KiemTra_HT_DoDem
+  CongTo_DoDem_1Pha_CoKhi:
+    type: text
+  ChuKy_Ktra_DoDem:
+    type: text
+###TraCuu-DiemThu-HinhThucThu
+  TraCuu_DiemThu:
+    type: text
+  DS_DiemThu:
+    type: text
+#Chung
+  nhomHDMB:
+    type: text
+  nhomYCHT:
+    type: text
+  nhomDKThanhToan:
+    type: text
+
+entities:
+ - location
+ - HuongDan
+ - time
+ - Dangky
+ - HD_ThuTuc
+ - HoSo
+ - ChiPhi
+ - ThoiGianGiaiQuyet
+ - LoaiYeuCau
+ - customer_code
+ - matches
+ - DV_Capmoi
+#DangNhap
+ - maKH
+ - hoiMatKhau
+ - doiMK
+ - DangNhap
+ - DangXuat
+ - ma_kh
+#ThayDoi_CongSuat_SD_DienAp
+ - NgungGiamMuc_CungcapDien
+ - ThayDoiCongSuatSuDung
+ - TH_KH_ThayDoi_CS
+#ThanhLy-HopDong-MuaBan
+ - ThoiGianBaoTruoc
+ - DieuKienRangBuoc
+#ThayDoi_ViTri_ThietBiDoDem_HaAp
+ - ViTri_LapDat_CongTo
+##TraCuu-Lich-NgungCapDien
+ - KhieuNai
+##HinhThuc-ThanhToan-TienDien
+ - HinhThucThanhToan
+ - HuongDanThanhToan
+ - KenhTiepNhan
+ - HuongDanThayDoi
+ - ThayDoiThanhToan
+ - DiaChiThanhToan
+ - ThanhToan_QuaNganHang
+ - ThanhToan_PGD
+ - NHKhac
+ - NHLienKet
+ - ToChucTrungGian
+ - DiemThuOffline
+ - ECPAY
+ - PAYOO
+ - MOMO
+ - VTC
+ - DS_NganHang_LienKet
+ - Bankplus
+ - DS_TaiKhoan
+ - InternetBanking
+###DangKy-Mua-Dien-HaAp
+ - dienHaAp
+ - dienNganHan
+ - dienNgoaiSinhHoat
+ - dienSinhHoat
+ - sdung_ngoai_mdich_sinhHoat
+ - HDMuaDienNganHan
+ - DKdienNganHan
+ - CapdienNganHan
+###YeuCau-TamNgung-SuDungDien
+ - DieuKien_TamNgung_SD
+###YeuCau_KiemTra_HT_DoDem
+ - CongTo_DoDem_1Pha_CoKhi
+ - ChuKy_Ktra_DoDem
+###TraCuu-DiemThu-HinhThucThu
+ - TraCuu_DiemThu
+ - DS_DiemThu
+#Chung
+ - nhomHDMB
+ - nhomYCHT
+ - nhomDKThanhToan
+
+intents:
+ - HoSo_DK
+ - Kenhtiepnhan_DK
+ - Chiphi_DK
+ - Thoigian_DK
+ - HD_ThuTuc_chung
+ - greet
+ - DangNhap
+ - default
+ - thankyou
+ - goodbye
+ - unclear
+ - DangKy-Mua-Dien-TrungAp
+ - DangKy-Mua-Dien-HaAp
+ - TraCuu-Lich-NgungCapDien
+ - ChuiTuc
+ - TheoDoi-TienDo-CapDien
+ - ThayDoi_CongSuat_SD_DienAp
+ - ThayDoi-ChuThe-MuaBanDien
+ - GiaHan_HD_MuaBan_duoi12thang
+ - ThanhLy-HopDong-MuaBan
+ - ThayDoi-MucDich-SuDungDien
+ - ThayDoi_DinhMuc_SoHo_DungChung_CongTo
+ - ThayDoi_ViTri_ThietBiDoDem_HaAp
+ - YeuCau-TamNgung-SuDungDien
+ - CapDien_TroLai_Sau_TamDung
+ - YeuCau_KiemTra_HT_DoDem
+ - YeuCau_KiemDinh_HT_DoDem
+ - DangKy-ThanhToan
+ - TraCuu-Lich-GhiChiSo
+ - TraCuu-ThongTin-GiaDien
+ - TraCuu-DiemThu-HinhThucThu
+ - TuVan-SuDungDien
+ - TraCuu-ChiSoDien
+ - TraCuu-TinhHinhTieuThu
+ - TraCuu-HoaDonDien
+ - TraCuu-DauSo8088
+ - HuongDan-ThuTuc-DichVu
+ - Bao-SuCo-MatDien
+ - DangKy-ThayDoi-SDT
+ - DangKy-ThayDoi-Email
+ - TiepNhan-DangKy-DichVu
+ - TraCuu-TinhTrang-ThanhToan
+ - Chung
+ - TraCuu-TinhTrang-ThanhToan
+ - Khen
+ - Che
+ - GopY
+ - goodbye
+ - Huongdan
+
+templates:
+  utter_greet:
+    - 'Kính chào quý khách, evn.com.vn có thể giúp gì được cho quý khách?'
+  utter_CamOn:
+    - 'Cảm ơn quý khách, EVN HANOI sẽ liên tục cải tiến để tạo ra dịch vụ tốt nhất đáp ứng yêu cầu của khách hàng. Trân trọng!'
+       
+  utter_facebook_welcome:
+  - text: "EVN HANOI kính chào quý khách. Đây là hệ thống tư vấn và trả lời tự động.
+	
+       Hiện nay EVNHANOI đang cung cấp 7 nhóm dịch vụ trực tuyến. Quý khách có thể lựa chọn nhóm dịch vụ mình quan tâm:
+
+       - Dịch vụ cấp điện mới
+	   
+       - Hợp đồng mua bán điện
+	   
+       - Yêu cầu về hệ thống đo đếm
+	   
+       - Đăng ký thanh toán tiền điện
+	   
+       - Tra cứu thông tin
+	   
+       - Báo sự cố mất điện
+	   
+       - Tiếp nhận đăng ký dịch vụ của khách hàng."
+    buttons:
+    - title: "Dịch vụ cấp điện mới"
+      payload: "Dịch vụ cấp điện mới"
+    - title: "Hợp đồng mua bán điện"
+      payload: "Hợp đồng mua bán điện"
+    - title: "Yêu cầu về hệ thống đo đếm"
+      payload: "Yêu cầu về hệ thống đo đếm"
+    - title: "Đăng ký thanh toán tiền điện"
+      payload: "Đăng ký thanh toán tiền điện"
+    - title: "Tra cứu thông tin"
+      payload: "Tra cứu thông tin"
+    - title: "Báo sự cố mất điện"
+      payload: "Báo sự cố mất điện"
+    - title: "Tiếp nhận đăng ký dịch vụ của khách hàng"
+      payload: "Tiếp nhận đăng ký dịch vụ của khách hàng"
+
+###Nhóm 1 - Đăng ký mua điện trung áp (DangKy-Mua-Dien-TrungAp)
+  utter_HD-ThuTuc-Chung:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thủ tục {LoaiYeuCau}"
+    buttons:
+    - title: "Hồ sơ"
+      payload: "Hồ sơ"
+    - title: "Chi phí"
+      payload: "Chi phí"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_Chiphi_Chung:
+    - 'Chi phí: Miễn phí'
+  utter_KenhTiepNhan_DK_TrungAp:
+    - '- Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội.
+	
+          - Đăng ký qua Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH).
+		  
+          - Khách hàng có nhu cầu lắp đặt trạm biến áp riêng, mua điện từ điểm đấu nối trung thế đến địa điểm sử dụng điện của khách hàng, khách hàng có thể tới trực tiếp Phòng giao dịch khách hàng của Tổng Công ty Điện lực TP Hà Nội/Công ty Điện lực.'
+
+  utter_HoSo_DK_TrungAp:
+    - '- Công văn đề nghị Thỏa thuận đấu nối của khách hàng có công trình điện đấu nối vào lưới điện trung áp.
+	
+       - Thông tin đăng ký đấu nối tương ứng với nhu cầu đấu nối
+       
+       - Sơ đồ nguyên lý các thiết bị điện chính sau điểm đấu nối
+	   
+       - Tài liệu kỹ thuật các trang thiết bị dự định đấu nối hoặc các thay đổi dự kiến tại điểm đấu nối hiện tại, thời gian dự kiến hoàn thành dự án, số liệu kỹ thuật của dự án đấu nối mới hoặc thay đổi đấu nối hiện tại.	  
+       
+       - Bản đồ vẽ mặt bằng thể hiện điểm đấu nối, vị trí trạm biến áp hoặc đường dây khách có nhu cầu cải tạo, nâng cấp, di chuyển hoặc đấu nối xây dựng mới vào lưới điện trung áp hoặc 110kV của Tổng công ty Điện lực TP Hà Nội.	  
+       
+       - Trường hợp khách hàng có đề nghị mua điện đồng thời với đề nghị thỏa thuận đấu nối thì ngoài hồ sơ thỏa thuận đấu nối, khách hàng cần cung cấp giấy tờ xác định địa điểm mua điện (bản sao) và Phiếu tiếp nhận thông tin đề nghị mua điện'
+  utter_ChiPhi-DK-TrungAp:
+    - 'Toàn bộ chi phí phát sinh từ điểm đấu nối đến địa điểm sử dụng điện của khách hàng'
+  utter_Tgian_GQ-TrungAp:
+    - 'Thời gian giải quyết: Không quá 07 ngày làm việc kể từ ngày nhận đủ hồ sơ.'
+
+###Nhóm 1 - Đăng ký mua điện hạ áp (DangKy-Mua-Dien-HaAp)
+  utter_HD-ThuTuc-DienNganHan:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thủ tục đăng ký mua điện ngắn hạn"
+    buttons:
+    - title: "Hồ sơ"
+      payload: "Hồ sơ"
+    - title: "Chi phí"
+      payload: "Chi phí"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"		  
+
+  utter_HD-ThuTuc-dienNgoaiSinhHoat:		   
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thủ tục đăng ký mua điện ngoài sinh hoạt"
+    buttons:
+    - title: "Hồ sơ"
+      payload: "Hồ sơ"
+    - title: "Chi phí"
+      payload: "Chi phí"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_HD-ThuTuc-dienSinhhoat:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thủ tục đăng ký mua điện sinh hoạt"
+    buttons:
+    - title: "Hồ sơ"
+      payload: "Hồ sơ"
+    - title: "Chi phí"
+      payload: "Chi phí"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_KenhTiepNhan-HaAp:
+    - 'Kênh tiếp nhận:
+    
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký tại Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.
+       
+       EVN HANOI khuyến khích khách hàng đăng ký bằng hình thức Đăng ký trực tuyến trên Web và gọi điện tới Tổng đài 19001288.
+       
+       Ngay sau khi khách hàng đăng ký bằng một trong các hình thức trên, nhân viên ngành điện sẽ hướng dẫn, tiếp nhận và xác nhận yêu cầu cấp điện mới của khách hàng'
+
+  utter_CapDienMoiNganhan:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về cấp điện ngắn hạn"
+    buttons:
+    - title: "Đăng ký mua điện"
+      payload: "Đăng ký mua điện"
+    - title: "Hướng dẫn thủ tục"
+      payload: "Hướng dẫn thủ tục"
+
+  utter_ChiPhi-DK-HaAp:
+    - 'Các khoản chi phí do khách hàng thanh toán thông qua dịch vụ (nếu có), gồm:
+     
+        - Vật tư và nhân công để lắp đặt dây sau công tơ (trừ áp tô mát hoặc cầu chì phía sau áp tô mát hoặc cầu chì bảo vệ công tơ);
+        
+        - Thuế và các chi phí khác theo quy định của Nhà nước.
+        
+        Ghi chú:
+        - Tổng Công ty không tính các chi phí quản lý, lợi nhuận cũng như chi phí khảo sát, lập phương án thi công.'
+  utter_Tgian_GQ-DK-HaAp:
+    - '- Thành phố, thị xã, thị trấn: không quá 03 ngày làm việc kể từ ngày tiếp nhận yêu cầu.
+     
+        - Nông thôn: không quá 05 ngày làm việc kể từ ngày tiếp nhận yêu cầu.
+        
+        - Đối với các trường hợp trong quá trình lắp đặt phải trồng cột/cáp ngầm/máy biến dòng điện thì thời gian giải quyết không quá 07 ngày làm việc kể từ ngày tiếp nhận yêu cầu.
+        
+        Ghi chú: Khách hàng có thể tra cứu tiến độ thực hiện cấp điện'
+  utter_HoSo-DK-Sinhhoat:
+    - 'Hồ sơ đăng ký {LoaiYeuCau}:
+     
+         1. Phiếu tiếp nhận thông tin đề nghị mua điện
+         
+         2. Bản sao của một trong các giấy tờ tùy thân (cá nhân hoặc người đại diện hợp pháp của Tổ chức):
+         
+         - Giấy chứng minh nhân dân;
+         
+         - Giấy chứng minh công an nhân dân;
+         
+         - Giấy chứng minh sỹ quan quân đội nhân dân;
+         
+         - Thẻ căn cước công dân;
+         
+         - Hộ chiếu;
+         
+         - Giấy xác nhận nhân thân của công an phường, xã (có ảnh đóng dấu giáp lai).
+         
+         3. Bản sao của một trong các giấy tờ xác định chủ thể mua điện (Giấy tờ có tên của Tổ chức/cá nhân tại địa điểm mua điện):
+         
+         - Hộ khẩu thường trú
+         
+         - Sổ tạm trú
+         
+         - Giấy chứng nhận quyền sở hữu nhà
+         
+         - Quyết định phân nhà
+         
+         - Hợp đồng mua bán nhà
+         
+         - Hợp đồng thuê nhà có thời hạn từ 01 năm trở lên và đồng ý của chủ sở hữu
+         
+         - Giấy chứng nhận quyền sử dụng đất
+         
+         - Hợp đồng ủy quyền quản lý và sử dụng nhà/đất
+         
+         - Hợp đồng thuê địa điểm và đồng ý của chủ sở hữu
+         
+         - Giấy chứng nhận đăng ký doanh nghiệp
+         
+         - Giấy chứng nhận đăng ký kinh doanh
+         
+         - Giấy chứng nhận đăng ký hộ kinh doanh
+         
+         - Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện
+         
+         - Giấy phép đầu tư
+         
+         - Quyết định thành lập đơn vị.
+         
+         Lưu ý:
+         
+         - Trường hợp khách hàng đại diện khu tập thể, cụm dân cư mua điện phục vụ mục đích sinh hoạt, ngoài các giấy tờ nêu trên cần có thêm:
+         
+           Bản sao Sổ hộ khẩu/Sổ tạm trú/Giấy xác nhận của công an quản lý trên địa bàn của các hộ dùng chung
+           
+           Giấy ủy quyền của các hộ sử dụng điện chung trong khu tập thể, cụm dân cư.
+           
+         - Trường hợp khách hàng đang sử dụng điện với mục đích sinh hoạt chung công tơ với khách hàng, có nhu cầu tách công tơ riêng mua điện trực tiếp với Công ty Điện lực, ngoài các giấy tờ nêu trên cần có thêm:
+         
+           Giấy cam kết thanh toán hết nợ tiền điện với chủ hợp đồng mua bán điện đang dùng chung.'
+  utter_HoSo-DK-NgoaiSinhhoat:
+    - 'hồ sơ đăng ký điện ngoài sinh hoạt:
+    
+       1. Phiếu tiếp nhận thông tin đề nghị mua
+       
+       2. Bản sao của một trong các giấy tờ tùy thân (cá nhân hoặc người đại diện hợp pháp của Tổ chức):
+       
+       - Giấy chứng minh nhân dân;
+       
+       - Giấy chứng minh công an nhân dân;
+       
+       - Giấy chứng minh sỹ quan quân đội nhân dân;
+       
+       - Thẻ căn cước công dân;
+       
+       - Hộ chiếu ;
+       
+       - Giấy xác nhận nhân thân của công an phường, xã (có ảnh đóng dấu giáp lai).
+       
+       3. Bản sao của một trong các giấy tờ xác định chủ thể mua điện (Giấy tờ có tên của Tổ chức/cá nhân tại địa điểm mua điện):
+       
+       - Hộ khẩu thường trú
+       
+       - Sổ tạm trú
+       
+       - Giấy chứng nhận quyền sở hữu nhà
+       
+       - Quyết định phân nhà
+       
+       - Hợp đồng mua bán nhà
+       
+       - Hợp đồng thuê nhà có thời hạn từ 01 năm trở lên và đồng ý của chủ sở hữu
+       
+       - Giấy chứng nhận quyền sử dụng đất
+       
+       - Hợp đồng ủy quyền quản lý và sử dụng nhà/đất
+       
+       - Hợp đồng thuê địa điểm và đồng ý của chủ sở hữu
+       
+       - Giấy chứng nhận đăng ký doanh nghiệp
+       
+       - Giấy chứng nhận đăng ký kinh doanh
+       
+       - Giấy chứng nhận đăng ký hộ kinh doanh
+       
+       - Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện
+       
+       - Giấy phép đầu tư
+       
+       - Quyết định thành lập đơn vị.
+       
+       4. Bản sao của một trong các giấy tờ xác định mục đích sử dụng điện:
+       
+       - Giấy chứng nhận đăng ký doanh nghiệp;
+       
+       - Giấy chứng nhận đăng ký kinh doanh;
+       
+       - Giấy chứng nhận đăng ký hộ kinh doanh
+       
+       - Giấy chứng nhận đăng ký hoạt động chi nhánh/văn phòng đại diện;
+       
+       - Giấy phép đầu tư;
+       
+       - Quyết định thành lập đơn vị.
+       
+       - Thông tin của doanh nghiệp trên Cổng thông tin đăng ký doanh nghiệp quốc gia tại địa chỉ http://www.dangkykinhdoanh.gov.vn.
+       
+       - Biên bản khảo sát cấp điện của Điện lực/Công ty Điện lực;
+       
+       5. Trường hợp Khách hàng mua điện để sản xuất, kinh doanh dịch vụ có công suất sử dụng cực đại ≥ 40kW bổ sung thêm Bản đăng ký biểu đồ phụ tải.'
+
+  utter_HoSo-DK-NganHan:
+    - 'Hồ sơ đăng ký điện ngắn hạn:
+    
+       1. Phiếu tiếp nhận thông tin đề nghị mua điện
+       
+       2. Bản sao của một trong các giấy tờ tùy thân (cá nhân hoặc người đại diện hợp pháp của Tổ chức):
+       
+       - Giấy chứng minh nhân dân;
+       
+       - Giấy chứng minh công an nhân dân;
+       
+       - Giấy chứng minh sỹ quan quân đội nhân dân;
+       
+       - Thẻ căn cước công dân;
+       
+       - Hộ chiếu ;
+       
+       - Giấy xác nhận nhân thân của công an phường, xã (có ảnh đóng dấu giáp lai).
+       
+       3. Bản sao của một trong các giấy tờ xác định chủ thể mua điện (Giấy tờ có tên của Tổ chức/cá nhân tại địa điểm mua điện):
+       
+       - Hộ khẩu thường trú
+       
+       - Sổ tạm trú
+       
+       - Giấy chứng nhận quyền sở hữu nhà
+       
+       - Quyết định phân nhà
+       
+       - Hợp đồng mua bán nhà
+       
+       - Hợp đồng thuê nhà có thời hạn từ 01 năm trở lên và đồng ý của chủ sở hữu
+       
+       - Giấy chứng nhận quyền sử dụng đất
+       
+       - Hợp đồng ủy quyền quản lý và sử dụng nhà/đất
+       
+       - Hợp đồng thuê địa điểm và đồng ý của chủ sở hữu
+       
+       - Giấy chứng nhận đăng ký doanh nghiệp
+       
+       - Giấy chứng nhận đăng ký kinh doanh
+       
+       - Giấy chứng nhận đăng ký hộ kinh doanh
+       
+       - Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện
+       
+       - Giấy phép đầu tư
+       
+       - Quyết định thành lập đơn vị.
+       
+       4. Bản sao của một trong các giấy tờ xác định mục đích sử dụng điện:
+       
+       - Giấy chứng nhận đăng ký doanh nghiệp;
+       
+       - Giấy chứng nhận đăng ký kinh doanh;
+       
+       - Giấy chứng nhận đăng ký hộ kinh doanh
+       
+       - Giấy chứng nhận đăng ký hoạt động chi nhánh/văn phòng đại diện;
+       
+       - Giấy phép đầu tư;
+       
+       - Quyết định thành lập đơn vị.
+       
+       - Thông tin của doanh nghiệp trên Cổng thông tin đăng ký doanh nghiệp quốc gia tại địa chỉ http://www.dangkykinhdoanh.gov.vn.
+       
+       - Biên bản khảo sát cấp điện của Điện lực/Công ty Điện lực;
+       
+       5. Trường hợp Khách hàng mua điện để sản xuất, kinh doanh dịch vụ có công suất sử dụng cực đại ≥ 40kW bổ sung thêm Bản đăng ký biểu đồ phụ tải.
+       
+       6. Giấy bảo lãnh không hủy ngang hoặc Chứng thư bảo lãnh không hủy ngang của Ngân hàng với thời hạn bảo lãnh bằng thời hạn của hợp đồng mua bán điện cộng thêm 10 ngày làm việc.
+       
+       Khách hàng đặt cọc bằng tiền có giá trị bằng số tiền điện theo số ngày đề nghị mua điện hoặc bằng số tiền điện tương ứng với lượng điện dự kiến tiêu thụ trong 1,5 tháng.'
+
+  utter_DK-mua-DienNganHan:
+    - 'Có 4 cách để đăng ký mua điện ngắn hạn:
+    
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký tại Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.'
+
+  utter_DK-mua-DienHaAp:
+  - text: "Quý khách muốn đăng ký mua điện loại nào?"
+    buttons:
+    - title: "Sinh hoạt"
+      payload: "Sinh hoạt"
+    - title: "Ngoài sinh hoạt"
+      payload: "Ngoài sinh hoạt"
+    - title: "Đăng ký ngắn hạn"
+      payload: "Đăng ký ngắn hạn"
+
+  utter_sdung_ngoai_mdich_sinhHoat:
+    - 'Đối với khách hàng sử dụng điện ngoài mục đích sinh hoạt, việc ghi chỉ số được quy định như sau:
+    
+       - Dưới 50.000 kWh/tháng, ghi chỉ số 1 lần trong một tháng.
+       
+       - Từ 50.000 đến 100.000 kWh/ tháng, ghi chỉ số 2 lần trong một tháng.
+       
+       - Trên 100.000 kWh/tháng, ghi chỉ số 3 lần trong một tháng.'
+  utter_MuaDienNganHan:
+    - 'Khách hàng mua điện ngắn hạn thì ký kết mẫu hợp đồng mua bán điện sau:
+    
+       Mẫu hợp đồng mua bán điện ngoài sinh hoạt'
+###Khen
+  utter_khen:
+    - 'Cảm ơn quý khách, Evnhanoi sẽ liên tục cải thiện để phục vụ tốt hơn.'
+
+###Chê/unhappy (Che)
+  utter_che:
+    - 'Xin lỗi quý khách, Evnhanoi sẽ liên tục cải thiện để phục vụ tốt hơn.'
+
+###Góp ý/feedback (GopY)
+  utter_GopY:
+    - 'Kính chào Quý khách hàng!
+    
+       Tổng công ty Điện lực TP Hà Nội rất mong nhận được những ý kiến đóng góp của Quý khách để chương trình ngày càng hoàn thiện phục vụ khách hàng tốt hơn!
+       
+       Trân trọng cảm ơn!'
+  utter_PhanHoiGopY:
+    - 'Cám ơn những ý kiến góp ý của quý khách giúp chúng tôi ngày càng nâng cao hơn nữa chất lượng dịch vụ khách hàng!  Trong quá trình sử dụng điện nếu có thắc mắc cần tư vấn, rất mong Quý khách hàng liên hệ với Trung tâm chăm sóc khách hàng của Tổng công ty Điện lực TP Hà Nội (EVN HANOI) trực 24/7 theo số điện thoại: 19001288 để được hỗ trợ kịp thời.
+    
+       Kính chúc Quý khách sức khỏe!
+       
+       Trân trọng cảm ơn!
+       
+       Nút Thêm góp ý'
+
+###DangNhap
+  utter_TruyVanPD:
+    - 'Quý khách vui lòng nhập mã khách hàng cần tra cứu (PD. . .)?'
+  utter_moiNhapMK:
+    - 'Cảm ơn quý khách, mời quý khách nhập mật khẩu đăng nhập Website CSKH. Nếu chưa có mật khẩu vui lòng liên hệ tổng đài CSKH để được hỗ trợ hoặc vui lòng đến Công ty Điện lực sở tại để được hỗ trợ cung cấp mật khẩu đăng nhập tài khoản trên web CSKH.'
+
+  utter_ask_password:
+    - 'Quý khách vui lòng liên hệ tổng đài CSKH theo số 19001288 để được hỗ trợ hoặc vui lòng đến Công ty Điện lực sở tại để được hỗ trợ cung cấp mật khẩu đăng nhập tài khoản trên web CSKH.
+    
+       Nút Gọi tổng đài'
+  utter_customer_code:
+    - 'Mã khách hàng có ghi trên hóa đơn tiền điện hàng tháng.
+    
+       Để biết thông tin chi tiết Quý khách vui lòng liên hệ Tổng đài 19001288 trực 24/7 để được hỗ trợ kịp thời.
+       
+       Nút Gọi tổng đài'
+  utter_doi_mk:
+    - 'Quý khách đăng nhập vào website cskh.evnhanoi.com.vn và chọn menu đổi mật khẩu để đổi mật khẩu ạ'
+  utter_HD_DangNhap:
+    - 'Để đăng nhập tại Website Chăm sóc khách hàng:
+    
+       - Bước 1: Quý khách truy cập vào trang web: "http://cskh.evnhanoi.com.vn"
+       
+       - Bước 2: vào mục "Đăng nhập" (góc phải màn hình).
+       
+       - Bước 3: Tên đăng nhập: Mã khách hàng (VD: PD…………….)
+                                Mật khẩu: Mã khách hàng (VD: PD…………….)
+       Để đảm bảo tính bảo mật và an toàn dữ liệu. Quý khách hàng vui lòng thay đổi mật khẩu theo nguyên tắc như sau:
+       
+       Quy tắc đặt mật khẩu
+       
+       - Mật khẩu phải có ít nhất 8 ký tự;
+       
+       - Mật khẩu gồm cả chữ hoa, chữ thường và số;
+       
+       Khi khách hàng đăng nhập tài khoản trên website: http://cskh.evnhanoi.com.vn, nếu tài khoản và mật khẩu đăng nhập không đúng theo quy tắc trên, trang web tự động thông báo yêu cầu khách hàng đổi mật khẩu và cho phép khách hàng thay đổi mật khẩu ngay  tại phần thông báo. Sau khi thay đổi mật khẩu thành công, Quý khách hàng có thể đăng nhập để tra cứu thông tin.'
+
+###Tra cuu lich ngung cap dien
+  utter_ThuTuc_TraCuu_Ngung_capdien:
+    - 'Thủ tục tra cứu lịch tạm ngừng cấp điện
+    
+       a. Kênh tiếp nhận:
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH
+       
+       - Báo Lao động trang Hà Nội và Báo Hà Nội mới'
+  utter_HoSo_TraCuu_Ngung_capdien:
+    - 'Hồ sơ tra cứu lịch tạm ngừng cấp điện:
+    
+       a. Kênh tiếp nhận:
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH
+       
+       - Báo Lao động trang Hà Nội và Báo Hà Nội mới'
+  utter_KhieuNaiMatDien:
+    - 'EVNHANOI luôn nỗ lực để đảm bảo cung cấp điện liên tục khách hàng, việc ngừng cung cấp điện là do thời tiết thay đổi nhu cầu sử dụng điện tăng cao dẫn đến quá tải hoặc do kế hoạch bảo trì bảo dưỡng hệ thống điện. EVNHANOI mong nhận được sự cảm thông của Quý khách. Thông tin thêm vui lòng liên hệ tổng đài CSKH.'
+
+###Chui Tuc
+  utter_ChuiTuc:
+    - 'Xin lỗi quý khách, ngôn từ này không phù hợp để giao tiếp'
+
+###Chào Tạm biệt/End session (goodbye)
+  utter_goodbye:
+    - 'Cảm ơn Quý khách. Khi cần hỗ trợ thông tin, Quý khách vui lòng tương tác với EVN HANOI. Hẹn gặp lại!'
+  utter_unclear:
+    - 'Xin lỗi, EVN HANOI chưa nắm rõ được yêu cầu của Quý khách. Vui lòng nói rõ hơn! Trân trọng cảm ơn!'
+
+###Theo Doi Tien Do Cap Dien
+  utter_TheoDoiTienDoCapDien:
+    - 'Quý khách có thể theo dõi tiến độ cấp điện trên Website CSKH của EVN HANOI tại địa chỉ sau:
+    
+       Hạ áp: http://cskh.evnhanoi.com.vn/CapDien/TDoiTDoCDien
+       
+       Trung áp: http://cskh.evnhanoi.com.vn/CapDien/TDoiTDoCDien_TrungAp'
+
+###ThayDoi_CongSuat_SD_DienAp
+  utter_HD-ThuTuc-ThayDoi_CS_SuDung:   
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thủ tục thay đổi công suất sử dụng điện"
+    buttons:
+    - title: "Hồ sơ"
+      payload: "Hồ sơ"
+    - title: "Chi phí"
+      payload: "Chi phí"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_NgungGiamMuc_CungcapDien:
+    - 'Khi ngừng giảm mức cung cấp điện không khẩn cấp, bên bán điện phải gửi thông báo bằng văn bản đến đói tượng khách hàng:
+    
+       Khách hàng sử dụng điện trung bình trên 100.000 kWh/tháng'
+  utter_ThayDoiCongSuatSuDung:
+    - 'Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thay đổi công suất sử dụng điện
+    
+       Hướng dẫn thủ tục'
+  utter_HoSo_ThayDoi_CS_SuDung:
+    - 'Hồ sơ thay đổi công suất sử dụng điện:
+    
+       - Giấy đề nghị thay đổi công suất sử dụng điện của chủ thể hợp đồng mua bán điện.
+       
+       - Bảng kê thiết bị điện sử dụng
+       
+       - Đối với trường hợp khách hàng có đề nghị công suất sử dụng cực đại từ 40kW trở lên, khách hàng bổ sung “Bản đăng ký biểu đồ phụ tải”.'
+  utter_ChiPhiThayDoi_CS_SuDung:
+    - 'Các khoản chi phí do khách hàng thanh toán thông qua dịch vụ (nếu có), gồm:
+    
+       - Vật tư và nhân công để lắp đặt từ sau áp tô mát bảo vệ đến địa điểm sử dụng điện của khách hàng;
+       
+       - Thuế và các chi phí khác theo quy định của Nhà nước.'
+  utter_ThoiGianThayDoi_CS_SuDung:
+     - '- Đối với khu vực thành phố/thị xã/thị trấn: Không quá 03 ngày làm việc kể từ ngày tiếp nhận yêu cầu.
+     
+        - Đối với khu vực nông thôn: Không quá 05 ngày làm việc kể từ ngày tiếp nhận yêu cầu.
+        
+        - Đối với khách hàng phải lắp đặt máy biến dòng: Không quá 07 ngày làm việc kể từ ngày tiếp nhận yêu cầu.'
+  utter_TH_KH_ThayDoi_CS:
+    - 'Khách hàng có nhu cầu thay đổi công suất, chi phí đầu tư do:
+    
+       Đơn vị điện lực chịu chi phí đối với thiết bị thuộc tài sản của Đơn vị điện lực, khách hàng chịu chi phí đối với thiết bị thuộc tài sản của Khách hàng'
+
+###Thay doi chu the hop dong mua ban dien (sinh hoat, ngoai sinh hoat)
+  utter_ThuTuc_ThayDoi_ChuThe_HD_MuaBanDien:
+    - 'Thủ tục thay đổi chủ thể hợp đồng mua bán điện:
+    
+       a. Kênh tiếp nhận:
+       
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký tại Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.
+       
+       b. Hồ sơ:
+       
+       - Giấy đề nghị;
+       
+       - Bản sao của một trong các giấy tờ xác định chủ thể mua điện mới:
+       
+         Hộ khẩu thường trú
+         
+         Sổ tạm trú
+         
+         Giấy chứng nhận quyền sở hữu nhà
+         
+         Quyết định phân nhà
+         
+         Hợp đồng mua bán nhà
+         
+         Hợp đồng thuê nhà có thời hạn từ 01 năm trở lên và đồng ý của chủ sở hữu
+         
+         Giấy chứng nhận quyền sử dụng đất
+         
+         Hợp đồng ủy quyền quản lý và sử dụng nhà/đất
+         
+         Hợp đồng thuê địa điểm và đồng ý của chủ sở hữu
+         
+         Giấy chứng nhận đăng ký doanh nghiệp
+         
+         Giấy chứng nhận đăng ký kinh doanh
+         
+         Giấy chứng nhận đăng ký hộ kinh doanh
+         
+         Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện
+         
+         Giấy phép đầu tư
+         
+         Quyết định thành lập đơn vị.
+         
+       EVN HANOI khuyến khích khách hàng chủ động đăng ký và đề nghị chuyển đổi đúng chủ thể hợp đồng mua bán điện.
+       
+       c. Chi phí: Miễn phí
+       
+       b. Thời gian giải quyết:
+       
+       - Không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ (đối với khách hàng sử dụng điện sinh hoạt)
+       
+       - Không quá 03 ngày làm việc kể từ ngày nhận đủ hồ sơ (đối với khách hàng sử dụng điện ngoài sinh hoạt)'
+  utter_Tgian_Gquyet_ThayDoiHD:
+    - 'Thời gian giải quyết thay đổi chủ thể hợp đồng mua bán điện:
+    
+       - Không quá 02 ngày làm việc kể từ ngày tiếp nhận yêu cầu (đối với khách hàng sử dụng điện sinh hoạt).
+       
+       - Không quá 03 ngày làm việc kể từ ngày tiếp nhận yêu cầu (đối với khách hàng sử dụng điện ngoài sinh hoạt).'
+
+  utter_MakeClear_ThayDoiChuTheHD:
+  - text: "Quý khách muốn hỏi thông tin gì về thay đổi chủ thể hợp đồng mua bán điện?"
+    buttons:
+    - title: "Hồ sơ"
+      payload: "Hồ sơ"
+    - title: "Chi phí"
+      payload: "Chi phí"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_HoSo_ThayDoi_ChuThe_HD:
+    - 'Hồ sơ thay đổi chủ thể hợp đồng mua bán điện (sinh hoạt, ngoài sinh hoạt):
+    
+       - Giấy đề nghị;
+       
+       - Bản sao của một trong các giấy tờ xác định chủ thể mua điện mới:
+       
+         Hộ khẩu thường trú
+         
+         Sổ tạm trú
+         
+         Giấy chứng nhận quyền sở hữu nhà
+         
+         Quyết định phân nhà
+         
+         Hợp đồng mua bán nhà
+         
+         Hợp đồng thuê nhà có thời hạn từ 01 năm trở lên và đồng ý của chủ sở hữu
+         
+         Giấy chứng nhận quyền sử dụng đất
+         
+         Hợp đồng ủy quyền quản lý và sử dụng nhà/đất
+         
+         Hợp đồng thuê địa điểm và đồng ý của chủ sở hữu
+         
+         Giấy chứng nhận đăng ký doanh nghiệp
+         
+         Giấy chứng nhận đăng ký kinh doanh
+         
+         Giấy chứng nhận đăng ký hộ kinh doanh
+         
+         Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện
+         
+         Giấy phép đầu tư
+         
+         Quyết định thành lập đơn vị.
+         
+       EVN HANOI khuyến khích khách hàng chủ động đăng ký và đề nghị chuyển đổi đúng chủ thể hợp đồng mua bán điện.'
+
+###Gia han hop dong mua ban (duoi 12 thang)
+  utter_HoSo_GiaHan_HDMBD:
+    - 'Hồ sơ gia hạn hợp đồng mua bán điện bao gồm:
+    
+       - Giấy đề nghị gia hạn Hợp đồng mua bán điện đầy đủ thông tin cần thiết của hợp đồng đã ký.'
+  utter_Tgian_GiaHan_HDMBD:
+    - 'Thời gian giải quyết: Không quá 01 ngày làm việc kể từ ngày tiếp nhận yêu cầu.'
+
+###Thanh ly hop dong mua ban
+  utter_ChamDut_HDMBD:
+    - 'Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về chấm dứt hợp đồng mua bán điện
+    
+       Hướng dẫn thủ tục'
+  utter_HoSo_ChamDut_HDMBD:
+    - 'Văn bản đề nghị chấm dứt hợp đồng mua bán điện của chủ thể Hợp đồng hoặc người ủy quyền hợp pháp. Nếu chủ thể ký hợp đồng mua bán điện không còn tồn tại (chết, phá sản, giải thể v.v…), bị tước quyền công dân hoặc năng lực hành vi bị hạn chế, phải có xác nhận của cơ quan có thẩm quyền hoặc của chính quyền địa phương;'
+  utter_Tgian_Gquyet_ChamDut_HDMBD:
+    - 'Thời gian giải quyết: Trong vòng 02 ngày làm việc kể từ ngày tiếp nhận yêu cầu.'
+  utter_ThongBao_ChamDut_HDMBD:
+    - 'Chấm dứt hợp đồng mua bán điện cần phải báo trước cho:
+    
+       Quý khách vui lòng thông báo cho bên bán điện trước 15 ngày trước khi cắt điện.'
+  utter_Vde_GiaiQuyet_khi_ThanhLy_HD:
+    - 'Quý khách vui lòng thanh quyết toán tiền điện và tiền bồi thương, tiền phạt nếu có.'
+
+###Thay doi muc dich su dung dien (sinh hoat, ngoai sinh hoat)
+  utter_Thutuc_ThayDoi_MuchDich_SD:
+    - 'Thay đổi mục đích sử dụng điện:
+    
+       a. Kênh tiếp nhận:
+       
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký tại Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.
+       
+       b. Hồ sơ:
+       
+       - Giấy đề nghị thay đổi mục đích sử dụng điện
+       
+       - Bản sao của một trong các giấy tờ xác định mục đích sử dụng điện sau:
+       
+         Giấy chứng nhận đăng ký doanh nghiệp
+         
+         Giấy chứng nhận đăng ký kinh doanh
+         
+         Giấy chứng nhận đăng ký hộ kinh doanh
+         
+         Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện
+         
+         Giấy phép đầu tư
+         
+         Quyết định thành lập đơn vị.
+         
+         Thông tin của doanh nghiệp trên Cổng thông tin đăng ký doanh nghiệp quốc gia tại địa chỉ http://www.dangkykinhdoanh.gov.vn
+         
+         Biên bản khảo sát cấp điện của Điện lực/Công ty Điện lực
+         
+       c. Chi phí: Miễn phí
+       
+       d. Thời gian giải quyết:
+       
+       - Không quá 03 ngày làm việc kể từ ngày nhận đủ hồ sơ (từ sử dụng điện sinh hoạt sang ngoài sinh hoạt hoặc chuyển sử dụng điện ngoài sinh hoạt phải thay đổi giá bán điện
+       
+       - Không quá 01 ngày làm việc kể từ ngày nhận đủ hồ sơ (từ sử dụng điện ngoài sinh hoạt sang sinh hoạt)'
+
+  utter_ThayDoi_MucDich_SD_Dien:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thay đổi mục đích sử dụng điện"
+    buttons:
+    - title: "Hướng dẫn thủ tục"
+      payload: "Hướng dẫn thủ tục"
+
+  utter_HoSo_ThayDoi_MucDich_SD:
+    - '- Giấy đề nghị thay đổi mục đích sử dụng điện
+    
+       - Bản sao của một trong các giấy tờ xác định mục đích sử dụng điện sau:
+       
+         Giấy chứng nhận đăng ký doanh nghiệp
+         
+         Giấy chứng nhận đăng ký kinh doanh
+         
+         Giấy chứng nhận đăng ký hộ kinh doanh
+         
+         Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện
+         
+         Giấy phép đầu tư
+         
+         Quyết định thành lập đơn vị.
+         
+         Thông tin của doanh nghiệp trên Cổng thông tin đăng ký doanh nghiệp quốc gia tại địa chỉ http://www.dangkykinhdoanh.gov.vn
+         
+         Biên bản khảo sát cấp điện của Điện lực/Công ty Điện lực'
+  utter_Tgian_Gquyet_ThayDoi-MuchDich-SD:
+    - 'Thời gian giải quyết:
+    
+       - Không quá 03 ngày làm việc kể từ ngày tiếp nhận yêu cầu (từ sử dụng điện sinh hoạt sang ngoài sinh hoạt hoặc chuyển sử dụng điện ngoài sinh hoạt phải thay đổi giá bán điện
+       
+       - Không quá 01 ngày làm việc kể từ ngày tiếp nhận yêu cầu (từ sử dụng điện ngoài sinh hoạt sang sinh hoạt)'
+
+###Nhóm 2 - Thay đổi định mức số hộ dùng chung công tơ
+  utter_ThayDoi_DinhMuc_SoHo_DungChungCongTo:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thay đổi định mức số hộ dùng chung công tơ"
+    buttons:
+    - title: "Hướng dẫn thủ tục"
+      payload: "Hướng dẫn thủ tục"
+
+  utter_HoSoThayDoi_DinhMuc_SoHo_DungChungCongTo:
+    - 'Hồ sơ thay đổi định mức số hộ dùng chung công tơ:
+    
+       - Giấy đề nghị tăng định mức.
+       
+       - Sổ hộ khẩu/Sổ tạm trú/xác nhận công an quản lý địa bàn cho các hộ/người dùng chung tại địa điểm sử dụng điện'
+  utter_ThoiGianThayDoi_DinhMuc_SoHo_DungChungCongTo:
+    - 'Thời gian giải quyết: Không quá 03 ngày làm việc kể từ ngày tiếp nhận yêu cầu Khách hàng.'
+
+###Nhóm 2 - Thay đổi vị trí thiết bị đo đếm hạ áp
+  utter_ThayDoi_ViTri_ThietBi_DoDem:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thay đổi vị trí thiết bị đo đếm"
+    buttons:
+    - title: "Hướng dẫn thủ tục"
+      payload: "Hướng dẫn thủ tục"
+
+  utter_HoSoThayDoi_ViTri_ThietBi_DoDem:
+    - '- Giấy đề nghị di dời công tơ điện có đầy đủ các thông tin: tên khách hàng, địa chỉ, mã khách hàng, thông tin địa điểm treo công tơ hiện tại và địa điểm khách hàng muốn di dời.'
+  utter_ChiphiThayDoi_ViTri_ThietBi_DoDem:
+    - 'Chi phí: Toàn bộ chi phí (trừ công tơ) nếu do nhu cầu của Khách hàng.'
+  utter_ThoiGianThayDoi_ViTri_ThietBi_DoDem:
+    - 'Thời gian giải quyết: Không quá 07 ngày làm việc kể từ ngày tiếp nhận yêu cầu.'
+  utter_ViTri_LapDat_CongTo:
+    - 'Công tơ được lắp đặt trong khu vực quản lý của bên mua điện, trừ trường hợp có thoả thuận khác giữa Công ty điện lực với khách hàng'
+
+###Nhóm 2 - Yêu cầu tạm ngừng sử dụng điện
+  utter_Thutuc_YC_TamNgung_SD:
+    - 'Thủ tục yêu cầu tạm ngừng sử dụng điện
+    
+       a. Kênh tiếp nhận:
+       
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký tại Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.
+       
+       b. Hồ sơ:
+       
+       Giấy đề nghị ngừng sử dụng điện.
+       
+       c. Chi phí: Tiền điện chưa thanh toán, phí đóng cắt điện.
+       
+       d. Thời gian giải quyết:
+       
+       Theo yêu cầu của khách hàng'
+  utter_YC_TamNgung_SD:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về yêu cầu tạm ngừng sử dụng điện"
+    buttons:
+    - title: "Hướng dẫn thủ tục"
+      payload: "Hướng dẫn thủ tục"
+
+  utter_HoSoYC_TamNgung_SD:
+    - 'Hồ sơ: Giấy đề nghị ngừng sử dụng điện.'
+  utter_ChiPhi_YC_TamNgung_SD:
+    - 'Chi phí: Tiền điện chưa thanh toán, phí đóng cắt điện.'
+  utter_ThoiGianYC_TamNgung_SD:
+    - 'Thời gian giải quyết: Theo yêu cầu của khách hàng'
+  utter_DieuKien_TamNgung_SD:
+    - 'Điều kiện để tạm ngừng sử dụng điện:
+    
+       Quý khách vui lòng thanh toán tiền điện chưa thanh toán (nếu có) và phí đóng cắt điện theo quy định'
+
+###Nhóm 2 - Cấp điện trở lại sau khi khách hàng tạm ngừng sử dụng điện
+  utter_HoSoYC_CapDienTroLai:
+    - '- Giấy đề nghị cấp điện trở lại.
+    
+       - Nếu khách hàng bị tạm ngừng sử dụng điện do yêu cầu của cơ quan Nhà nước cần có thêm Văn bản cho phép của Cơ quan thẩm quyền'
+  utter_ChiPhiYC_CapDienTroLai:
+    - 'Chi phí: Tiền điện chưa thanh toán (nếu có), phí đóng cắt điện.'
+  utter_ThoiGian_CapDienTroLai:
+    - 'Thời gian giải quyết:
+    
+       - Không quá 02 giờ đối với khu vực thành thị;
+       
+       - Không quá 08 giờ đối với khu vực nông thôn.'
+
+###Nhóm 3 - Yêu cầu kiểm tra hệ thống đo đếm
+  utter_HD-ThuTuc-Ycau-Ktra-DoDem:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thủ tục yêu cầu kiểm tra thiết bị đo đếm"
+    buttons:
+    - title: "Hồ sơ"
+      payload: "Hồ sơ"
+    - title: "Chi phí"
+      payload: "Chi phí"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_CongTo_DoDem_1Pha_CoKhi:
+    - 'Theo quy định của bộ công thương đối với công tơ đo đếm 1 pha cơ khí đo đếm điện năng tác dụng ở lưới điện hạ thế phải đạt Cấp chính xác 2,0 '
+  utter_KenhTiepNhan-YC-KtraDoDem:
+    - 'Kênh tiếp nhận các yêu cầu kiểm tra thiết bị đo đếm:
+    
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký tại Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.'
+  utter_Tgian_Gquyet_YCKtra_DoDem:
+    - 'Thời gian giải quyết: Không quá 01 ngày làm việc đối với công tơ, Không quá 03 ngày làm việc đối với máy biến dòng/máy  biến điện áp'
+  utter_ChuKy_Ktra_DoDem:
+    - 'Quy định về chu kỳ kiểm tra thiết bị đo đếm như sau:
+    
+       - Công tơ 1 pha đo đếm trực tiếp : 03 năm/lần;
+       
+       - Công tơ 1 pha đo đếm gián tiếp : 02 năm/lần;
+       
+       - Công tơ 3 pha có điện năng trung bình dưới 100.000 kWh/tháng kiểm tra 01 năm 1 lần;
+       
+       - Công tơ có điện năng trung bình từ 100.000 kWh/tháng trở lên kiểm tra ít nhất 06 tháng 1 lần;
+       
+       - Tu, Ti    : 03 năm 1 lần.
+       
+       Căn cứ tình hình cụ thể của từng đơn vị, Tổng giám đốc hoặc Giám đốc Công ty có thể quyết định tăng chu kỳ kiểm tra định kỳ HTĐĐĐN.'
+###Nhóm 3 - Yêu cầu kiểm định hệ thống đo đếm
+  utter_HD_ThuTuc_Ycau_Kdinh_DoDem:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thủ tục yêu cầu kiểm định thiết bị đo đếm"
+    buttons:
+    - title: "Kênh tiếp nhận"
+      payload: "Kênh tiếp nhận"
+    - title: "Chi phí"
+      payload: "Chi phí"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_KenhTiepNhan_YC_Kdinh_DoDem:
+    - 'Kênh tiếp nhận yêu cầu kiểm định thiết bị đo đếm:
+    
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký tại Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.'
+  utter_ChiPhi_YC_Kdinh_DoDem:
+    - 'Chi phí phải trả với dịch vụ kiểm định hệ thống đo đếm:
+    
+       - Lần 1: Miễn phí.
+       
+       - Lần 2: Nếu thiết bị đo đếm không đạt cấp chính xác cho phép theo tiêu chuẩn Việt Nam thì bên bán điện phải trả chi phí kiểm định. Nếu thiết bị đo đếm đạt chuẩn thì bên mua điện phải trả chi phí kiểm định.'
+  utter_Tgian_Gquyet_YC_Kdinh_DoDem:
+    - 'Thời gian giải quyết:
+    
+       - Trong vòng 24h làm việc kể từ khi tiếp nhận đối với kiểm định lần 1
+       
+       - Không quá 15 ngày làm việc đối với kiểm định lần 2 tại Tổ chức kiểm định độc lập'
+  utter_ChuKy_Kdinh_DoDem:
+    - 'Quy định về chu kỳ kiểm định thiết bị đo đếm:
+    
+       Chu kỳ kiểm định định kỳ TBĐĐĐN thực hiện theo Thông tư số: 23/2013/TT-BKHCN, ngày 26/09/2013 của Bộ Khoa học và Công nghệ, Quy định về đo lường đối với phương tiện đo nhóm 2. Cụ thể:
+       
+       - Công tơ 1 pha : 60 tháng /lần.
+       
+       - Công tơ 3 pha : 24 tháng /lần.
+       
+       - Tu, Ti  : 60 tháng /lần.'
+
+###Nhóm 4 -  Đăng ký thanh toán tiền điện
+  utter_KenhTiepNhan_DK_ThanhToanTienDien:
+    - 'Kênh tiếp nhận: Đăng ký dịch vụ tại Ngân hàng (có hợp tác với Điện lực) mà khách hàng mở tài khoản.'
+  utter_HinhThuc_ThanhToan-TienDien:
+    - 'Các hình thức để có thể thanh toán tiền điện:
+    
+       1. Thanh toán trích nợ tự động qua Ngân hàng mà EVN HANOI hợp tác.
+       
+       2. Thanh toán qua Internet banking/Mobile banking.
+       
+       3. Thanh toán tại Phòng giao dịch của Ngân hàng (Tiền mặt/ chuyển khoản).
+       
+       4. Thanh toán qua Tổ chức trung gian thanh toán mà EVN HANOI hợp tác.
+       
+       5. Thanh toán tại điểm thu tiền điện của CTĐL'
+  utter_HD_ThuTuc_ThayDoi_ThanhToan_Trich_NoTuDong:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về thủ tục thay đổi hình thức thanh toán sang trích nợ tự động"
+    buttons:
+    - title: "Kênh tiếp nhận"
+      payload: "Kênh tiếp nhận"
+    - title: "Hướng dẫn"
+      payload: "Hướng dẫn"
+    - title: "Chi phí thay đổi"
+      payload: "Chi phí thay đổi"
+
+  utter_HD_ThanhToan_TrucTuyen:
+    - 'Hướng dẫn thanh toán tiền điện trực tuyến: Thực hiện tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty
+       http://thanhtoantructuyen.evnhanoi.com.vn'
+  utter_HD_ThayDoi_ThanhToan_Trich_NoTuDong:
+    - 'Hướng dẫn thay đổi hình thức thanh toán sang trích nợ tự động:
+    
+       - Khách hàng đăng ký xong, in phiếu đăng ký trích nợ tự động và mang tới chi nhánh của Phòng giao dịch của các ngân hàng gần nhất để đăng ký trích nợ tự động.
+       
+       - Hàng tháng, Ngân hàng sẽ tự động trích tiền để thanh toán tiền điện.
+       
+       - Khách hàng tra cứu trên trang Web Chăm sóc khách hàng (website: www.cskh.evnhanoi.com.vn) hoặc ứng dụng EVNHANOI CSKH trên smartphone có thông báo: Đã thanh toán.
+       
+       - Khách hàng xem và tải bản thể hiện hóa đơn điện tử tại trang Web Chăm sóc khách hàng.'
+  utter_DiaChi_ThanhToan_HoaDon_TaiQuan:
+    - 'Quý khách có thể thanh toán linh hoạt tại bất kỳ địa điểm nào có điểm thu tiền điện trong TP Hà Nội.'
+  utter_ThayDoi_ThanhToan_Trich_NoTuDong:
+  - text: "Xin vui lòng lựa chọn thông tin bên dưới mà Quý khách đang quan tâm về thay đổi hình thức thanh toán sang trích nợ tự động"
+    buttons:
+    - title: "Hướng dẫn"
+      payload: "Hướng dẫn"
+    - title: "Đăng ký TNTĐ"
+      payload: "Đăng ký TNTĐ"
+
+  utter_ThanhToan_QuaNganHang:
+  - text: "Quý khách muốn hỏi về hình thức thanh toán nào qua ngân hàng?"
+    buttons:
+    - title: "Trích nợ tự động"
+      payload: "Trích nợ tự động"
+    - title: "Tới phòng giao dịch"
+      payload: "Tới phòng giao dịch"
+    - title: "Internet Banking"
+      payload: "Internet Banking"
+
+  utter_LamRo_ThanhToan_TaiPhongGD:
+  - text: "Quý khách muốn thanh toán tiền mặt tại phòng Giao dịch của các ngân hàng liên kiết với Công ty Điện lực hay các Ngân hàng khác?"
+    buttons:
+    - title: "Ngân hàng liên kết"
+      payload: "Ngân hàng liên kết"
+    - title: "Ngân hàng khác"
+      payload: "Ngân hàng khác"
+
+  utter_ThanhToan_TaiPhongGD_NHLienKet:
+    - 'Thanh toán tiền mặt tại phòng Giao dịch của các Ngân hàng liên kết với Công ty Điện lực:
+    
+       a. Khách hàng cần nhớ mã khách hàng hoặc địa chỉ chính xác ghi trong hóa đơn tiền điện/ Hợp đồng mua bán điện/biên nhận thanh toán tiền điện.
+       
+       b. Khách hàng liên hệ nhân viên ngân hàng để thanh toán tiền điện cho mã khách hàng của quý khách. Nhân viên ngân hàng sẽ kiểm tra trực tiếp trên hệ thống số tiền điện của quý khách để thu tiền và in gửi phiếu thu hoặc phiếu chuyển khoản của ngân hàng cho khách hàng.
+       
+       -  Sau khi quý khách hàng thanh toán tiền điện, trong vòng 24 giờ làm việc quý khách có thể tra cứu và tải bản thể hiện hóa đơn điện tử tại trang website Chăm sóc khách hàng http://cskh.evnhanoi.com.vn/'
+  utter_ThanhToan_TaiPhongGD_NHKhac:
+    - 'Thanh toán tiền điện tại phòng Giao dịch các Ngân hàng khác:
+    
+       a. Khách hàng mang theo Thẻ khách hàng sử dụng điện (hoặc nhớ mã khách hàng) đến phòng giao dịch của các ngân hàng để thực hiện chuyển tiền mặt hoặc chuyển khoản đến tài khoản của Công ty Điện lực mà khách hàng đang mua điện.
+       
+       b. Trong phiếu chuyển khoản, quý khách cần ghi rõ nội dung:
+       
+       - Tên đơn vị thụ hưởng: Công ty Điện lực ………..
+       
+       - Số tài khoản của đơn vị thụ hưởng:………………
+       
+       - Thanh toán tiền điện kỳ …… tháng ……năm……. cho mã khách hàng PD……..
+       
+       - Số tiền điện thanh toán phải bao gồm cả VAT và là số chính xác đến hàng đơn vị đồng.
+       
+       Lưu ý: Số tiền chuyển không bao gồm phí chuyển tiền.
+       
+       c.Công ty Điện lực sẽ nhận được tiền sớm hay muộn tùy thuộc vào ngân hàng nơi khách hàng thực hiện chuyển tiền cùng hay khác hệ thống ngân hàng của Công ty Điện lực và thời gian Quý khách chuyển tiền.
+       
+       Sau khi Công ty Điện lực nhận đủ tiền điện sẽ tiến hành cập nhật trên hệ thống. Trong vòng 24 giờ làm việc, Quý khách có thể tra cứu và tải bản thể hiện hóa đơn điện tử tại trang website Chăm sóc khách hàng http://cskh.evnhanoi.com.vn/.'
+  utter_ThanhToan_InternetBanking_MobileBanking:
+    - 'Thanh toán qua Internet Banking/ Mobile Banking:
+    
+       a. Thanh toán tiền điện qua Internet Banking/Mobile Banking của ngân hàng có liên kết với EVN HANOI:
+       
+       Bước 1: Đăng nhập vào tài khoản internetbanking của quý khách tại website của ngân hàng trên máy tính hoặc điện thoại thông minh.
+       
+       Bước 2: Chọn mục “Thanh toán hóa đơn”
+       
+       Bước 3: Chọn mục “Thông tin giao dịch”
+       
+       Bước 4: Chọn mục “Dịch vụ”  Quý khách chọn “Hóa đơn tiền điện”
+       
+       Chọn “Nhà cung cấp dịch vụ” là “EVN HANOI”
+       
+       Bước 5: Nhập “Mã khách hàng”: nếu quý khách chưa thanh toán tiền điện thì hệ thống sẽ hiển thị số tiền điện của quý khách.
+       
+       - Để thanh toán Quý khách chọn mục “Xác nhận”
+       
+       Bước 6: Quý khách xác nhận thanh toán, giao dịch thành công hệ thống ngân hàng sẽ tự động chuyển tiền điện vào tài khoản của Công ty Điện lực sở tại để thanh toán tiền điện cho khách hàng mà khách hàng đã nhập.
+       
+       Khi khách hàng thực hiện lệnh "Thanh toán tiền điện qua Internet banking" của các ngân hàng liên kết sẽ được miễn phí toàn bộ các phí giao dịch.
+       
+       b. Thanh toán tiền điện qua Internetbanking/Mobile banking của các ngân hàng khác:
+       
+       Quý khách cần chuẩn bị các thông tin sau:
+       
+       - Số tiền điện cần thanh toán (chính xác đến đơn vị đồng);
+       
+       - Tra cứu tài khoản của Công ty Điện lực (để khách hàng thực hiện giao dịch thanh toán tiền điện);
+       
+       - Cách tra cứu:
+       
+       •	Tra cứu tại website: cskh.evnhanoi.com.vn
+       
+       •	Tra cứu tại ứng dụng chăm sóc khách hàng EVN HANOI
+       
+       •	Liên hệ trực tiếp Tổng đài 19001288 để được hỗ trợ
+       
+       Sau đó, Quý khách đăng nhập vào tài khoản của quý khách trên máy tính hoặc điện thoại thông minh chủ động thanh toán qua Internetbanking với cú pháp chuyển tiền “ Thanh toan tien dien thang …..nam …......... Ma khach hang PDxxxxxxxxxxx”'
+  utter_ThanhToan_TaiDiemThuOffline:
+    - 'Lịch thu tiền điện được thông báo trên website chăm sóc khách hàng, loa phường/xã, niêm yết tại các phòng giao dịch khách hàng của Công ty Điện lực sở tại, niêm yết thông báo tại tổ dân phố, cụm dân cư, các tòa nhà chung cư cao tầng. Khi đi thanh toán tiền điện, khách hàng mang theo Thẻ khách hàng sử dụng điện hoặc đọc mã khách hàng để nhân viên Điện lực có cơ sở tra cứu tiền điện phải trả.'
+  utter_LamRo_ThanhToan_quaToChucTrungGian:
+  - text: "Quý khách đang quan tâm về hình thức thanh toán qua tổ chức trung gian thanh toán nào dưới đây?"
+    buttons:
+    - title: "ECPAY"
+      payload: "ECPAY"
+    - title: "Payoo"
+      payload: "Payoo"
+    - title: "Viettel Bankplus"
+      payload: "Viettel Bankplus"
+    - title: "Momo"
+      payload: "Momo"
+    - title: "VTC"
+      payload: "VTC"
+
+  utter_ThanhToan_ECPAY:
+    - 'Trình tự thực hiện thanh toán tiền điện qua ECPay: Sau khi đăng ký thanh toán tiền điện qua ECPay, hàng tháng khách hàng sẽ nhận được tin nhắn thông báo tiền điện. Để thanh toán, khách hàng thực hiện bằng các cách sau:
+    
+       Đăng ký tự động thanh toán:
+       
+       - Số điện thoại di động của Khách hàng sẽ là số tài khoản eDong và được gắn với một hoặc nhiều mã khách hàng mà khách hàng đăng ký thanh toán.
+       
+       - Hàng tháng, tổng đài của ECPay sẽ gửi tin nhắn thông báo số tiền điện phải thanh toán cho khách hàng.
+       
+         Chủ động thanh toán: Lựa chọn 1 trong các kênh giao dịch của eDong để thực hiện, hướng dẫn chi tiết tại www.eDong.vn
+         
+         Tại điểm thu của ECPay: Danh sách tham khảo tại trang web Chăm sóc khách hàng của EVN HANOhttp://cskh.evnhanoi.com.vn.
+         
+       ·        Các kênh thanh toán tiền điện qua ECPAY:
+       
+       1. Kênh ví Edong	Để sở hữu một tài khoản Ví điện tử eDong, Quý khách đăng ký bằng 2 cách:
+       
+       Cách 1: Qua Kênh Internet Edong:
+       
+       Bước 1: Khách hàng truy cập vào http://www.edong.vn chọn mục “Đăng nhập Ví”.
+       
+       Bước 2: Hệ thống hiển thị mục đăng kí eDong Intenet, khách hàng nhập thông tin “Số điện thoại”, Họ và tên, số CMT, Mật khẩu, Xác nhận mật khẩu, nhập mã xác thực.
+       
+       Bước 3: Nhập mã OTP trả về theo số điện thoại đăng ký
+       
+       Cách 2: Qua kênh SMS Edong:
+       
+       Để đăng ký và kích hoạt tài khoản Ví điện tử eDong, khách hàng có thể nhắn tin theo cú pháp: DKV_CMND_Hoten_Matkhau gửi 6189 (phí 1500đ)
+       
+       Chú ý : Kênh SMS eDong hiện chỉ hỗ trợ cú pháp phi tài chính. Những cú pháp tài chính như: Thanh toán tiền điện, Đăng kí trích nợ tự động, chuyển khoản Ví-Ví, Nạp tiền điện thoại trả trước, nạp tiền điện thoại trả sau, mua mã thẻ tạm khóa.
+       
+       2. Kênh quầy thu	Khách hàng chủ động tới các quầy thu của ECPay thanh toán hóa đơn tiền điện phát sinh'
+  utter_ThanhToan_Payoo:
+    - 'Công ty CP Dịch vụ Trực tuyến Cộng Đồng Việt (Payoo):
+    
+       ·        Thanh toán trực tuyến tại www.payoo.vn:
+       
+         Truy cập Website:www.payoo.vn, chọn “Thanh toán hóa đơn”.
+         
+         Chọn dịch vụ cần thanh toán, đơn vị cung cấp, nhập “ Mã Khách hàng”. Nhấn “Tiếp tục”.
+         
+       ·      Thanh toán tại chuỗi cửa hàng: Nhật Cường mobile, Vinmart, Home Center, Vinpro, K-Market, Phúc Anh (Điện thoại, máy tính, thiết bị văn phòng), Citimart, FPT shop, Nguyễn Kim v.v…
+       
+         Khách hàng cung cấp Mã khách hàng cho nhân viên cửa hàng.
+         
+         Kiểm tra số tiền cần phải đóng với nhân viên cửa hàng.
+         
+         Đóng tiền, chờ nhận Biên nhận thanh toán và kiểm tra lại thông tin'
+  utter_ThanhToan_MOMO:
+    - 'Thanh toán qua ứng dụng ví điện tử MoMo:
+    
+       Qua ứng dụng Ví điện tử MoMo: Người dùng cần tải và đăng ký ứng dụng MoMo với từ khóa "MoMo" đã có trên hệ điều hành iOS, Android.
+       
+       Để thanh toán, khách hàng chỉ cần Nạp tiền vào ví MoMo qua Điểm giao dịch hoặc thông qua Ngân hàng liên kết.
+       
+       Bước 1: Đăng nhập MoMo > chọn "Thanh toán hóa đơn"
+       
+       Bước 2: Chọn "Điện Lực Hà Nội"
+       
+       Bước 3: Nhập mã khách hàng
+       
+       Bước 4: Chọn nguồn nạp từ Ví MoMo hoặc nguồn khác
+       
+       Bước 5: Chọn "Xác nhận" để hoàn tất thủ tục thanh toán.
+       
+       Điểm Giao Dịch MoMo là các cửa hàng sim – thẻ điện thoại, nhà thuốc tây, tiệm tạp hóa...
+       
+       Dễ dàng nhận ra Điểm Giao Dịch thông qua logo MoMo màu hồng tím nổi bật. Các Điểm Giao Dịch MoMo mở cửa từ 7h30 – 21h00, kể cả thứ 7, Chủ nhật và ngày Lễ.
+       
+       Để tìm Điểm giao dịch MoMo gần nhất:
+       
+       Trên Ứng dụng Ví điện tử MoMo tại"Điểm Nạp/Rút"ở màn hình chính;'
+  utter_ThanhToan_VTC:
+    - 'Thanh toán qua Công ty VTC công nghệ và nội dung số (VTC) :
+    
+       Bước 1: Truy cập vào website https://365.vtc.vn, hoặc tải ứng dụng VTC365 trên điện thoại thông minh. Sau đó tiến hành đăng nhập tài khoản.
+       
+       Bước 2: Chọn “Thanh toán hóa đơn” – “Tiền điện” để tiền điện online.
+       
+       Bước 3:  Chọn nhà cung cấp, nhập mã khách hàng và sau đó kiểm tra lại một lần nữa các thông tin hóa đơn trước khi thanh toán.
+       
+       Mã khách hàng là mã in trên giấy thông báo thu tiền điện hàng tháng của quý khách.
+       
+       Bước 4: Lựa chọn hình thức thanh toán
+       
+       Trên hệ thống VTC365, có 3 hình thức thanh toán cho bạn lựa chọn:
+       
+       -    Thanh toán qua tài khoản Ví điện tử VTC Pay
+       
+       -    Thanh toán qua Ngân hàng nội địa
+       
+       -    Thanh toán qua thẻ quốc tế
+       
+       Sau khi chọn hình thức thanh toán, bạn nhập đầy đủ các thông tin tài khoản thanh toán của mình.
+       
+       Bước 5: Nhập mã bảo mật OTP  và kết thúc quá trình thanh toán hóa đơn điện online. Mã bảo mật OTP  là mã bảo mật được hệ thống gửi qua SMS hoặc Email đã đăng ký.'
+  utter_DS_NganHang_LienKet:
+    - 'Quý khách vui lòng tham khảo về danh sách các ngân hàng liên kết với Công ty Điện lực tại đường link dưới đây:
+    
+       http://cskh.evnhanoi.com.vn/Newletter?cateId=320'
+  utter_ThanhToan_BankPlus:
+    - 'Tổng công ty Viễn thông Viettel (Viettel - Ví điện tử Bankplus):
+    
+        Dịch vụ Bankplus là dịch vụ hợp tác giữa Viettel và ngân hàng, giúp khách hàng đang sử dụng thuê bao di động Viettel thao tác một cách đơn giản trên chính chiếc điện thoại của mình để thực hiện các giao dịch tài chính, đảm bảo giá trị pháp lý và độ bảo mật cao với các tiện ích vượt trội.
+        
+       Dịch vụ thanh toán tiền điện:
+       
+       Ứng dụng trên điện thoại di động cho phép khách hàng sử dụng dịch vụ bankplus thao tác thanh toán tiền điện trực tiếp trên điện thoại.
+       
+       Bước 1: Đăng ký Bankplus
+       
+       Bước 2:
+       
+       - Từ điện thoại: Gọi “*123#”
+       
+       - Chọn “Thanh toán dịch vụ”
+       
+       - Chọn “Điện”
+       
+       - Nhập mã khách hàng (mã trên hóa đơn tiền điện)
+       
+       - Nhập mã PIN
+       
+       - Nhập mã xác thực.
+       
+       - Kết thúc giao dịch.
+       
+       Lưu ý: (*) Trong trường hợp quý khách chưa sử dụng dịch vụ Bankplus, Quý khách vui lòng mang theo CMT tới cửa hàng Viettel hoặc phòng giao dịch Viettel gần nhất để đăng ký miễn phí.'
+  utter_DS_TaiKhoan_ThuTien:
+    - 'Quý khách vui lòng tham khảo về danh sách các tài khoản chuyên thu điện lực tại đường link dưới đây:
+    
+       http://cskh.evnhanoi.com.vn/TraCuuTaiKhoan?strTitle=Danh sách số tài khoản chuyên thu của các Công ty điện lực'
+
+###Nhóm 5 - Tra cứu lịch ghi chỉ số
+  utter_ThuTuc_TraCuu_LichGhiChiSo:
+    - 'Thủ tục tra cứu lịch ghi chỉ số:
+    
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH
+       
+       - Sử dụng tin nhắn truy vấn MO. '
+  utter_TrachNhiem_NV_GhiChiSo:
+    - 'Trả lời mọi thắc mắc của khách hàng sử dụng điện'
+  utter_LichGhi_ChiSo_Congto_DoDem:
+    - 'Ghi theo lịch ghi chỉ số của công tơ đo đếm điện năng hữu công'
+  utter_LichGhi_ChiSo:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về tra cứu lịch ghi chỉ số"
+    buttons:
+    - title: "Hướng dẫn tra cứu"
+      payload: "Hướng dẫn tra cứu"
+    - title: "Tra cứu thông tin"
+      payload: "Tra cứu thông tin"
+
+  utter_HD_TraCuu_LichGhi_ChiSo:
+    - 'Hình thức tra cứu kịch ghi chỉ số:
+    
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH
+       
+       - Sử dụng tin nhắn truy vấn MO'
+
+###Nhóm 5 - Tra cứu thông tin giá bán điện
+  utter_QuyDinh_GiaBanDien_BoCongThuong:
+    - 'Theo quy định của bộ công thương giá bán điện theo thời gian sử dụng trong ngày của ngày chủ nhật được áp dụng như sau:
+    
+       Giờ bình thường: Từ 4h00 đến 22h00. Giờ thấp điểm:  Từ 22h00 đến 4h00 sáng ngày hôm sau'
+  utter_TraCuu_TT_GiaBanDien:
+  - text: "Vui lòng chọn nhóm loại giá bán điện dưới đây mà Quý khách đang quan tâm về giá điện"
+    buttons:
+    - title: "Giá bán lẻ"
+      payload: "Giá bán lẻ"
+    - title: "Giá bán buôn"
+      payload: "Giá bán buôn"
+    - title: "Giá điện của tôi"
+      payload: "Giá điện của tôi"
+
+  utter_HD_TraCuu_TT_GiaDien:
+    - 'Hình thức tra cứu thông tin giá bán điện:
+    
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH
+       
+       - Sử dụng tin nhắn truy vấn MO'
+  utter_TT_GiaDien:
+  - text: "Vui lòng chọn thông tin bên dưới mà Quý khách hàng quan tâm về Thông tin giá bán điện"
+    buttons:
+    - title: "Hướng dẫn tra cứu"
+      payload: "Hướng dẫn tra cứu"
+    - title: "Tra giá điện"
+      payload: "Tra giá điện"
+
+  utter_GiaBanDien_3Gia:
+    - 'Giá bán điện theo hình thức ba giá được áp dụng như sau:
+    
+       Bên mua điện sử dụng vào mục đích sản xuất, kinh doanh, dịch vụ được cấp điện qua máy biến áp chuyên dùng từ 25 kVA trở lên hoặc có sản lượng điện sử dụng trung bình ba tháng liên tục từ 2000 kWh/tháng trở lên.'
+  utter_GiaDien_SinhHoat:
+    - 'Từ ngày 01/12/2017, giá bán lẻ điện cho sinh hoạt như sau:
+    
+       1. Giá bán lẻ điện sinh hoạt:
+       
+         - Bậc 1: Cho kWh từ 0 - 50: 1549 đồng/kwh
+         
+         - Bậc 2: Cho kWh từ 51 - 100: 1600 đồng/kwh
+         
+         - Bậc 3: Cho kWh từ 101 - 200: 1858 đồng/kwh
+         
+         - Bậc 4: Cho kWh từ 201 - 300: 2340 đồng/kwh
+         
+         - Bậc 5: Cho kWh từ 301 - 400: 2615 đồng/kwh
+         
+         - Bậc 6: Cho kWh từ 401 trở lên: 2701 đồng/kwh
+         
+       2. Giá bán lẻ điện sinh hoạt dùng công tơ thẻ trả trước: 2271 đồng/kwh
+       
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_BanLe_SanXuat:
+    - 'Từ ngày 01/12/2017, giá bán lẻ điện cho các ngành sản xuất như sau:
+    
+       1. Cấp điện áp từ 110 kV trở lên:
+       
+         - Giờ bình thường: 1434 đồng/kwh
+         
+         - Giờ thấp điểm: 884 đồng/kwh
+         
+         - Giờ cao điểm: 2570 đồng/kwh
+         
+       2. Cấp điện áp từ 22 kV đến dưới 110 kV:
+       
+         - Giờ bình thường: 1452 đồng/kwh
+         
+         - Giờ thấp điểm: 918 đồng/kwh
+         
+         - Giờ cao điểm: 2673 đồng/kwh
+         
+       3. Cấp điện áp từ 6 kV đến dưới 22 kV:
+       
+         - Giờ bình thường: 1503 đồng/kwh
+         
+         - Giờ thấp điểm: 953 đồng/kwh
+         
+         - Giờ cao điểm: 2759 đồng/kwh
+         
+       4. Cấp điện áp dưới 6 kV:
+       
+         - Giờ bình thường: 1572 đồng/kwh
+         
+         - Giờ thấp điểm: 1004 đồng/kwh
+         
+         - Giờ cao điểm: 2862 đồng/kwh
+         
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_BanLe_KDDV:
+    - 'Từ ngày 01/12/2017, giá bán lẻ điện cho kinh doanh như sau:
+    
+       1. Cấp điện áp từ 22 kV trở lên:
+       
+         - Giờ bình thường: 2254 đồng/kwh
+         
+         - Giờ thấp điểm: 1256 đồng/kwh
+         
+         - Giờ cao điểm: 3923 đồng/kwh
+         
+       2. Cấp điện áp từ 6 kV đến dưới 22 kV:
+       
+         - Giờ bình thường: 2426 đồng/kwh
+         
+         - Giờ thấp điểm: 1428 đồng/kwh
+         
+         - Giờ cao điểm: 4061 đồng/kwh
+         
+       3. Cấp điện áp dưới 6 kV:
+       
+         - Giờ bình thường: 2461 đồng/kwh
+         
+         - Giờ thấp điểm: 1497 đồng/kwh
+         
+         - Giờ cao điểm: 4233 đồng/kwh
+         
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_BanLe_HanhChinhSuNghiep:
+    - 'Từ ngày 01/12/2017, giá bán lẻ điện cho khối hành chính sự nghiệp như sau:
+    
+       1. Bệnh viện, nhà trẻ, mẫu giáo, trường phổ thông:
+       
+         - Cấp điện áp từ 6 kV trở lên: 1531 đồng/kwh
+         
+         - Cấp điện áp dưới 6 kV: 1635 đồng/kwh
+         
+       2. Chiếu sáng công cộng; đơn vị hành chính sự nghiệp:
+       
+         - Cấp điện áp từ 6 kV trở lên: 1686 đồng/kwh
+         
+         - Cấp điện áp dưới 6 kV: 1755 đồng/kwh
+         
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_BanLe_NongThon:
+    - 'Từ ngày 01/12/2017, giá bán buôn điện nông thôn như sau:
+    
+       1. Giá bán buôn điện sinh hoạt:
+       
+         - Bậc 1: Cho kWh từ 0 - 50: 1285 đồng/kwh
+         
+         - Bậc 2: Cho kWh từ 51 - 100: 1336 đồng/kwh
+         
+         - Bậc 3: Cho kWh từ 101 - 200: 1450 đồng/kwh
+         
+         - Bậc 4: Cho kWh từ 201 - 300: 1797 đồng/kwh
+         
+         - Bậc 5: Cho kWh từ 301 - 400: 2035 đồng/kwh
+         
+         - Bậc 6: Cho kWh từ 401 trở lên: 2120 đồng/kwh
+         
+       2. Giá bán buôn điện cho mục đích khác: 1368 đồng/kwh
+       
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_BanBuon_KhuCN:
+    - 'Từ ngày 01/12/2017, giá bán buôn điện cho các khu công nghiệp như sau:
+    
+       1. Giá bán buôn điện tại thanh cái 110 kV của trạm biến áp 110 kV/35-22-10-6 kV:
+       
+       1.1. Tổng công suất đặt các MBA của trạm biến áp lớn hơn 100 MVA:
+       
+        	a) Giờ bình thường: 1380 đồng/kwh
+            
+        	b) Giờ thấp điểm: 860 đồng/kwh
+            
+        	c) Giờ cao điểm: 2515 đồng/kwh
+            
+       1.2. Tổng công suất đặt các MBA của trạm biến áp từ 50 MVA đến 100 MVA:
+       
+        	a) Giờ bình thường: 1374 đồng/kwh
+            
+        	b) Giờ thấp điểm: 833 đồng/kwh
+            
+        	c) Giờ cao điểm: 2503 đồng/kwh
+            
+       1.3. Tổng công suất đặt các MBA của trạm biến áp dưới 50 MVA:
+       
+        	a) Giờ bình thường: 1367 đồng/kwh
+            
+        	b) Giờ thấp điểm: 830 đồng/kwh
+            
+        	c) Giờ cao điểm: 2487 đồng/kwh
+            
+       2. Giá bán buôn điện phía trung áp của trạm biến áp 110/35-22-10-6 kV:
+       
+       2.1. Cấp điện áp từ 22 kV đến dưới 110 kV:
+       
+        	a) Giờ bình thường: 1424 đồng/kwh
+            
+        	b) Giờ thấp điểm: 901 đồng/kwh
+            
+        	c) Giờ cao điểm: 2621 đồng/kwh
+            
+       2.2. Cấp điện áp từ 6 kV đến dưới 22 kV:
+       
+        	a) Giờ bình thường: 1474 đồng/kwh
+            
+        	b) Giờ thấp điểm: 934 đồng/kwh
+            
+        	c) Giờ cao điểm: 2705 đồng/kwh
+            
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_BanBuon_ToHopTM_DB:
+    - 'Từ ngày 01/12/2017, giá bán buôn điện cho tổ hợp thương mại - dịch vụ - sinh hoạt như sau:
+    
+       1. Giá bán buôn điện sinh hoạt:
+       
+           Bậc 1: Cho kWh từ 0 - 50: 1518 đồng/kwh
+           
+           Bậc 2: Cho kWh từ 51 - 100: 1568 đồng/kwh
+           
+           Bậc 3: Cho kWh từ 101 - 200: 1821 đồng/kwh
+           
+           Bậc 4: Cho kWh từ 201 - 300: 2293 đồng/kwh
+           
+           Bậc 5: Cho kWh từ 301 - 400: 2563 đồng/kwh
+           
+           Bậc 6: Cho kWh từ 401 trở lên: 2647 đồng/kwh
+           
+       2. Giá bán buôn điện cho mục đích khác:
+       
+           a) Giờ bình thường: 2328 đồng/kwh
+           
+           b) Giờ thấp điểm: 1416 đồng/kwh
+           
+           c) Giờ cao điểm: 4004 đồng/kwh
+           
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_BanBuon_KhuTapTheDanCu:
+    - 'Quý khách muốn xem giá điện khu tập thể, cụm dân cư ở đâu?
+    
+       Thành phố, thị xã
+       
+       Thị trấn, huyện lỵ'
+  utter_TraCuu_GiaBanLe:
+    - 'Quý khách muốn xem giá bán điện lẻ cho nhóm đối tượng khách hàng nào?
+    
+       Các ngành sản xuất
+       
+       Hành chính sự nghiệp
+       
+       Kinh doanh'
+  utter_TraCuu_GiaBanBuon:
+    - 'Quý khách muốn xem giá bán buôn điện cho nhóm đối tượng khách hàng nào?
+    
+       Nông thôn
+       
+       Cụm dân cư, tập thể
+       
+       Tổ hợp TM - DV - SH
+       
+       Khu công nghiệp'
+  utter_GiaDien_BanBuon_KhuTapTheDanCu_TP_ThiXa:
+    - 'Từ ngày 01/12/2017, giá bán buôn điện khu tập thể, cụm dân cư ở thành phố, thị xã như sau:
+    
+       1. Giá bán buôn điện sinh hoạt:
+       
+       1.1. Trạm biến áp do Bên bán điện đầu tư:
+       
+        	Bậc 1: Cho kWh từ 0 - 50: 1443 đồng/kwh
+            
+        	Bậc 2: Cho kWh từ 51 - 100: 1494 đồng/kwh
+            
+        	Bậc 3: Cho kWh từ 101 - 200: 1690 đồng/kwh
+            
+        	Bậc 4: Cho kWh từ 201 - 300: 2139 đồng/kwh
+            
+        	Bậc 5: Cho kWh từ 301 - 400: 2414 đồng/kwh
+            
+        	Bậc 6: Cho kWh từ 401 trở lên: 2495 đồng/kwh
+            
+       1.2. Trạm biến áp do Bên mua điện đầu tư:
+       
+        	Bậc 1: Cho kWh từ 0 - 50: 1421 đồng/kwh
+            
+        	Bậc 2: Cho kWh từ 51 - 100: 1472 đồng/kwh
+            
+        	Bậc 3: Cho kWh từ 101 - 200: 1639 đồng/kwh
+            
+        	Bậc 4: Cho kWh từ 201 - 300: 2072 đồng/kwh
+            
+        	Bậc 5: Cho kWh từ 301 - 400: 2330 đồng/kwh
+            
+        	Bậc 6: Cho kWh từ 401 trở lên: 2437 đồng/kwh
+            
+       2. Giá bán buôn điện cho mục đích khác: 1380 đồng/kwh
+       
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_BanBuon_KhuTapTheDanCu_HuyenLy:
+    - 'Từ ngày 01/12/2017, giá bán buôn điện khu tập thể, cụm dân cư ở thị trấn, huyện lỵ như sau:
+    
+       1. Giá bán buôn điện sinh hoạt:
+       
+       1.1. Trạm biến áp do Bên bán điện đầu tư:
+       
+        	Bậc 1: Cho kWh từ 0 - 50: 1391 đồng/kwh
+            
+        	Bậc 2: Cho kWh từ 51 - 100: 1442 đồng/kwh
+            
+        	Bậc 3: Cho kWh từ 101 - 200: 1601 đồng/kwh
+            
+        	Bậc 4: Cho kWh từ 201 - 300: 2027 đồng/kwh
+            
+        	Bậc 5: Cho kWh từ 301 - 400: 2280 đồng/kwh
+            
+        	Bậc 6: Cho kWh từ 401 trở lên: 2357 đồng/kwh
+            
+       1.2. Trạm biến áp do Bên mua điện đầu tư:
+       
+        	Bậc 1: Cho kWh từ 0 - 50: 1369 đồng/kwh
+            
+        	Bậc 2: Cho kWh từ 51 - 100: 1420 đồng/kwh
+            
+        	Bậc 3: Cho kWh từ 101 - 200: 1564 đồng/kwh
+            
+        	Bậc 4: Cho kWh từ 201 - 300: 1939 đồng/kwh
+            
+        	Bậc 5: Cho kWh từ 301 - 400: 2197 đồng/kwh
+            
+        	Bậc 6: Cho kWh từ 401 trở lên: 2271 đồng/kwh
+            
+       2. Giá bán buôn điện cho mục đích khác: 1384 đồng/kwh
+       
+       (Giá trên chưa bao gồm thuế VAT 10%)'
+  utter_GiaDien_NguoiThueNha:
+    - 'Quý khách vui lòng tham khảo nội dung hướng dẫn giá bán điện dành cho người thuê nhà tại đường link sau:
+    
+       http://cskh.evnhanoi.com.vn'
+
+###Nhóm 5 - Tra cứu điểm thu và các hình thức thu tiền điện (TraCuu-DiemThu-HinhThucThu)
+  utter_TraCuu_DiemThu_HinhThucThu:
+    - 'Hình thức tra cứu điểm thu và các hình thức thu tiền điện
+    
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH'
+  utter_DS_DiemThu_TienDien:
+    - 'Quý khách vui lòng tham khảo về danh sách các điểm thu tiền điện tại đường link dưới đây:
+    
+       http://cskh.evnhanoi.vn/TraCuuDiemThu?strTitle=Danh sách điểm thu tiền điện'
+
+###Nhóm 5 - Tư vấn sử dụng điện an toàn, tiết kiệm hiệu quả (TuVan-SuDungDien)
+  utter_TuVan_SD_Dien_AnToanTK_HieuQua:
+    - 'Xin vui lòng lựa chọn thông tin bên dưới mà Quý khách hàng đang quan tâm về tư vấn sử dụng điện
+    
+       Sử dụng an toàn
+       
+       Sử dụng tiết kiệm'
+  utter_TuVan_SD_Dien_AnToan:
+    - 'Hình thức tư vấn sử dụng điện an toàn:
+	
+	   - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+	   
+	   - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+	   
+	   - Tra cứu trên Ứng dụng EVNHANOI CSKH'
+  utter_TuVan_SD_Dien_HieuQua:
+    - 'Hình thức Tư vấn sử dụng điện tiết kiệm hiệu quả:
+	  
+	  - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+	  
+	  - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+	  
+	  - Tra cứu trên Ứng dụng EVNHANOI CSKH'
+
+###Nhóm 5 - Tra cứu chỉ số điện năng tiêu thụ (TraCuu-ChiSoDien)
+  utter_ThuTucTraCuu_ChiSoDienNang:
+    - 'Thủ tục tra cứu chỉ số điện năng tiêu thụ:
+    
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH '
+  utter_HeThong_DoDem_MatKH:
+    - 'Hệ thống đo đếm điện năng mất mà khách hàng vẫn sử dụng điện thì tính thời gian 3 chu kỳ ghi chỉ số liền kề'
+  utter_Loai_KH_CoTheTraCuu_ChiSoCongTo:
+    - 'Những khách hàng của EVN HANOI có thể tra cứu được chỉ số mà công tơ đo đếm được hàng ngày: Các khách hàng có trạm biến áp riêng (khách hàng F9).'
+  utter_ChiSo_DienNang_TieuThu:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về chỉ số điện năng tiêu thụ"
+    buttons:
+    - title: "Hướng dẫn tra cứu"
+      payload: "Hướng dẫn tra cứu"
+    - title: "Tra cứu chỉ số"
+      payload: "Tra cứu chỉ số"
+
+  utter_HD_TraCuu_ChiSo_DienNang_TieuThu:
+    - 'Hình thức tra cứu chỉ số điện năng
+    
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH'
+
+###Nhóm 5 - Tra cứu sản lượng, tình hình tiêu thụ điện (TraCuu-TinhHinhTieuThu)
+  utter_SanLuong_DienNang_TieuThu:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về sản lượng điện năng tiêu thụ"
+    buttons:
+    - title: "Hướng dẫn tra cứu"
+      payload: "Hướng dẫn tra cứu"
+    - title: "Tra sản lượng"
+      payload: "Tra sản lượng"
+
+  utter_HinhThuc_TraCuu_SanLuong_TieuThu:
+    - 'Hình thức tra cứu sản lượng điện năng tiêu thụ:
+	
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+	   
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+	   
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH '
+  utter_HD_CachTraCuu_SanLuongDien_HangThang:
+    - 'Quý khách vui lòng tra cứu tại mục: "Tra cứu tình hình tiêu thụ điện"'
+###Nhóm 5 - Tra cứu hóa đơn tiền điện (TraCuu-HoaDonDien):
+  utter_ThuTuc_TraCuu_HoaDon:
+    - 'Tra cứu hóa đơn tiền điện:
+    
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH '
+  utter_LamRo_HoaDonTienDien:
+    - 'Quý khách muốn hỏi gì về hóa đơn tiền điện?
+    
+       Hướng dẫn tra cứu
+       
+       Tra hóa đơn'
+  utter_HinhThuc_TraCuu_HoaDon:
+    - 'Hình thức tra cứu hóa đơn tiền điện
+    
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH '
+  utter_DiaChiDownload_HoaDon:
+    - 'Quý khách vui lòng đăng nhập trang Web Chăm sóc khách hàng
+       (cskh.evnhanoi.com.vn) để xem và tải hóa đơn điện tử.'
+  utter_HD_In_Tai_HoaDon:
+    - 'Quý khách hàng thực hiện theo một trong các cách sau:
+    
+       - Cách 1: Thực hiện tải bản thể hiện hóa đơn điện tử trực tiếp tại Website Chăm sóc khách hàng:
+       
+          Bước 1: Quý khách truy cập vào trang web: http://cskh.evnhanoi.com.vn
+          
+          Bước 2: vào mục "Đăng nhập" (góc phải màn hình).
+          
+          Bước 3: Tên đăng nhập: Mã khách hàng (VD: PD…………)
+          
+                                Mật khẩu: quý khách vui lòng nhập mật khẩu. Nếu KH đăng nhập lần đầu, quý khách nhập Mật khẩu là chính số Mã khách hàng (VD: PD0123456…………)
+                                
+       Để đảm bảo tính bảo mật và an toàn dữ liệu. Quý khách vui lòng đổi mật khẩu theo hướng dẫn trên web.
+       
+          Để tải bản thể hiện hóa đơn, khách hàng nhấn vào mục "Tải hóa đơn điện tử"  để tải hóa đơn về máy và lưu giữ. (Lưu ý: bản thể hiện hóa đơn điện tử chỉ hiển thị khi Quý khách hàng đã thanh toán tiền điện).
+          
+       - Cách 2: Gửi email đến hộp thư evnhanoi@evnhanoi.vn (Quý khách hàng vui lòng cung cấp thông tin địa chỉ bao gồm: Mã khách hàng, Họ tên và địa chỉ nơi đăng ký sử dụng điện, email đăng ký)
+       
+       - Cách 3: Liên hệ đến Trung tâm Chăm sóc khách hàng của EVN HANOI theo số điện thoại 19001288 để đăng ký nhận thông báo tiền điện và bản thể hiện hóa đơn điện tử.
+       
+       - Cách 4: Đăng ký email nhận thông báo tiền điện và bản thể hiện hóa đơn điện tử tại các Phòng giao dịch khách hàng của Công ty Điện lực sở tại.'
+
+###Nhóm 5 - Tra cứu qua đầu số 8088 (TraCuu-DauSo8088)
+  utter_TraCuu_8088:
+    - 'Dịch vụ nhắn tin truy vấn các thông tin về điện thông qua đầu số 8088 của VNPT:
+
+       Từ tháng 10/2016, EVN HANOI đã chính thức khai thác dịch vụ nhắn tin truy vấn các thông tin về điện thông qua đầu số 8088 của VNPT nhằm đa dạng hóa thông tin, giúp khách hàng chủ động tiếp cận các dịch vụ, thông tin liên quan đến sử dụng điện một cách một cách nhanh chóng, thuận lợi.
+
+       Cụ thể, bằng cách soạn tin nhắn theo cú pháp yêu cầu và gửi về đầu số 8088. Quý khách có thể tra cứu cú pháp soạn tin nhắn theo mục: "Thông tin hỗ trợ khách hàng" sau đó chọn: "Tra cứu thông tin điện qua 8088" tại website Chăm sóc khách hàng: http://cskh.evnhanoi.com.vn. Khách hàng sử dụng điện trên địa bàn thành phố Hà Nội sẽ nhận được các thông tin về: Lịch ghi chỉ số, thông tin thanh toán tiền điện và trạng thái thanh toán tiền điện. Hướng dẫn sử dụng dịch vụ nhắn tin truy vấn các thông tin về điện qua đầu số 8088. Phí dịch vụ: 1.000vnđ/tin nhắn.'
+
+###Nhóm 5 - Hướng dẫn thủ tục dịch vụ (HuongDan-ThuTuc-DichVu)
+  utter_LamRo_TraCuu_ThuTuc:
+  - text: "Quý khách vui lòng chọn thủ tục cần tra"
+    buttons:
+    - title: "Dịch vụ cấp mới"
+      payload: "Dịch vụ cấp mới"
+    - title: "Hợp đồng mua bán điện"
+      payload: "Hợp đồng mua bán điện"
+    - title: "Hệ thống đo đếm"
+      payload: "Hệ thống đo đếm"
+    - title: "Đăng ký thanh toán"
+      payload: "Đăng ký thanh toán"
+    - title: "Tra cứu thông tin"
+      payload: "Tra cứu thông tin"
+    - title: "Báo mất điện"
+      payload: "Báo mất điện"
+    - title: "Tiếp nhận dịch vụ"
+      payload: "Tiếp nhận dịch vụ"
+
+  utter_LamRo_ThuTuc_DV_CapDienMoi:
+    - 'Hiện tại EVN HANOI cung cấp tiếp nhận dịch vụ đăng ký cấp điện mới qua các kênh giao tiếp sau:
+    
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký tại Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.
+
+       Quý khách vui lòng chọn thủ tục trong mục dịch vụ cấp điện mới
+       
+       ĐK mua điện hạ áp
+       
+       ĐK điện trung áp
+       
+       Theo dõi cấp điện'
+  utter_LamRo_ThuTuc_DV_HDMBD:
+  - text: "Quý khách vui lòng chọn thủ tục muốn xem"
+    buttons:
+    - title: "Đổi cs hạ áp"
+      payload: "Đổi cs hạ áp"
+    - title: "Đổi chủ thể hợp đồng"
+      payload: "Đổi chủ thể hợp đồng"
+    - title: "Gia hạn hợp đồng"
+      payload: "Gia hạn hợp đồng"
+    - title: "Chấm dứt hợp đồng"
+      payload: "Chấm dứt hợp đồng"
+    - title: "Đổi mục đích sử dụng"
+      payload: "Đổi mục đích sử dụng"
+    - title: "Đổi định mức"
+      payload: "Đổi định mức"
+    - title: "Đổi vị trí thiết bị đo đếm"
+      payload: "Đổi vị trí thiết bị đo đếm"
+    - title: "Yêu cầu tạm ngừng"
+      payload: "Yêu cầu tạm ngừng"
+    - title: "Cấp điện lại"
+      payload: "Cấp điện lại"
+
+  utter_LamRo_ThuTuc_YC_HT_DoDem:
+  - text: "Quý khách vui lòng chọn thủ tục muốn xem"
+    buttons:
+    - title: "Kiểm tra thiết bị đo"
+      payload: "Kiểm tra thiết bị đo"
+    - title: "Kiểm định thiết bị đo"
+      payload: "Kiểm định thiết bị đo"
+
+  utter_LamRo_ThuTuc_TraCuu_ThongTin:
+  - text: "Quý khách vui lòng chọn thủ tục muốn xem"
+    buttons:
+    - title: "tra cứu cắt điện"
+      payload: "tra cứu cắt điện"
+    - title: "tra cứu GCS"
+      payload: "tra cứu GCS"
+    - title: "tra cứu giá điện"
+      payload: "tra cứu giá điện"
+    - title: "tra cứu điểm thu"
+      payload: "tra cứu điểm thu"
+    - title: "tư vấn sử dụng điện"
+      payload: "tư vấn sử dụng điện"
+    - title: "tư vấn tiết kiệm điện"
+      payload: "tư vấn tiết kiệm điện"
+    - title: "tra cứu chỉ số"
+      payload: "tra cứu chỉ số"
+    - title: "tra tình hình tiêu thụ"
+      payload: "tra tình hình tiêu thụ"
+    - title: "tra cứu hóa đơn"
+      payload: "tra cứu hóa đơn"
+
+  utter_LamRo_ThuTuc_TuVan_SD_Dien_TietKiem:
+    - '- Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+    
+       - Tra cứu trên Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng
+       
+       - Tra cứu trên Ứng dụng EVNHANOI CSKH'
+  utter_YeuTo_AnhHuong_TyLe_ThuThapDuLieu_PLC:
+    - 'Yếu tố chính ảnh hưởng đến tỷ lệ thu thập dữ liệu sử dụng công nghệ PLC: Chất lượng lưới điện'
+  utter_QuyDinh_BoCongThuong_GioThapDiem:
+    - 'Quy định của bộ công thương giờ thấp điểm tất cả các ngày trong tuần: Từ 22h00 đến 04h00 sáng ngày hôm sau'
+  utter_ThongBao_ThayDinhKyCongTo:
+    - 'Thay định kỳ công tơ bên bán điện phải thông báo cho bên mua điện thời điểm thay công tơ: Từ 05 đến 07 ngày'
+  utter_SuaChuaLuoiDienHaThe:
+    - 'Sửa chữa lưới điện hạ thế phía trước công tơ bán điện cho khách hàng và trong phạm vi quản lý của đơn vị, khách hàng Không phải thanh toán chi phí sửa chữa'
+
+###Nhóm 6 - Báo sự cố mất điện (Bao-SuCo-MatDien)
+  utter_ThoiGian_XuLy_SuCo:
+    - 'Thời hạn tiến hành xử lý sự cố là 02 giờ kể từ khi phát hiện hoặc nhận được thông báo của bên mua điện về sự cố lưới điện.'
+  utter_NhomBaoMatDien:
+    - 'Báo mất điện do sự cố:
+    
+       a. Kênh tiếp nhận:
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Khách hàng có thể tới trực tiếp Phòng giao dịch khách hàng của Công ty Điện lực.
+       
+       b. Thực hiện: Theo yêu cầu của khách hàng
+       
+       c. Chi phí thực hiện: Các Bên chịu trách nhiệm khắc phục sự cố thuộc tài sản quản lý.
+       
+       c. Thời gian giải quyết: Không quá 02h.'
+
+###Nhóm 7 - Đăng ký thay đổi số điện thoại nhận tin nhắn (DangKy-ThayDoi-SDT)
+  utter_ThoiGian_guiSMS_ThongBao:
+    - 'Theo quy định của EVN HANOI tin nhắn thông báo tiền điện được gửi đến khách hàng trong khoảng thời gian Không quá 24 giờ kể từ khi phát hành hóa đơn tiền điện trong tháng'
+  utter_LamRo_ThayDoi_SDT_NhanSMS:
+  - text: "Vui lòng chọn các thông tin bên dưới mà Quý khách đang quan tâm về thay đổi số điện thoại nhận sms"
+    buttons:
+    - title: "Hướng dẫn thủ tục"
+      payload: "Hướng dẫn thủ tục"
+    - title: "Đăng ký thay đổi"
+      payload: "Đăng ký thay đổi"
+
+  utter_HD_ThuTuc_ThayDoi_SDT_NhanSMS:
+  - text: "Quý khách muốn hỏi gì về thủ tục thay đổi số điện thoại nhận tin nhắn ạ"
+    buttons:
+    - title: "Thủ tục"
+      payload: "Thủ tục"
+    - title: "Chi phí thực hiện"
+      payload: "Chi phí thực hiện"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_ThuTuc_ThayDoi_SDT_nhan_SMS:
+    - 'Thủ tục đăng ký, thay đổi số điện thoại nhận SMS
+    
+       a. Kênh tiếp nhận:
+       
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký qua Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.
+       
+       b. Thực hiện:Theo yêu cầu của khách hàng: Nhận thông báo tiền điện'
+  utter_Tgian_GQ_ThayDoi:
+    - 'Thời gian giải quyết đăng ký, thay đổi số điện thoại nhận tin nhắn: khi nhận được yêu cầu'
+
+###Nhóm 7 - Đăng ký thay đổi địa chỉ email (DangKy-ThayDoi-Email)
+  utter_LamRo_ThayDoi_email:
+  - text: "Vui lòng chọn các thông tin bên dưới mà Quý khách đang quan tâm về thay đổi địa chỉ nhận email"
+    buttons:
+    - title: "Hướng dẫn thủ tục"
+      payload: "Hướng dẫn thủ tục"
+    - title: "Đăng ký thay đổi"
+      payload: "Đăng ký thay đổi"
+
+  utter_HD_ThuTuc_ThayDoi_email:
+  - text: "Vui lòng chọn các thông tin bên dưới mà Quý khách đang quan tâm về đăng ký/thay đổi địa chỉ nhận email"
+    buttons:
+    - title: "Thủ tục"
+      payload: "Thủ tục"
+    - title: "Chi phí thực hiện"
+      payload: "Chi phí thực hiện"
+    - title: "Thời gian giải quyết"
+      payload: "Thời gian giải quyết"
+
+  utter_ThuTuc_ThayDoi_Email:
+    - 'Thủ tục đăng ký, thay đổi địa chỉ nhận email
+    
+       a. Kênh tiếp nhận:
+       
+       - Đăng ký trực tuyến tại Cổng thông tin Điện tử TP Hà Nội, Website của Tổng Công ty, Website Chăm sóc khách hàng của Tổng Công ty Điện lực TP Hà Nội
+       
+       - Đăng ký qua Ứng dụng Chăm sóc khách hàng (EVNHANOI CSKH)
+       
+       - Gọi điện tới Trung tâm Chăm sóc khách hàng (Tổng đài 19001288)
+       
+       - Đến trực tiếp tại các Phòng giao dịch khách hàng của các Công ty Điện lực.
+       
+       b. Thực hiện:
+       
+       Theo yêu cầu của khách hàng, bao gồm:
+       
+         Thông báo tiền điện.
+         
+         Bản thể hiện hóa đơn điện tử.
+         
+         Các thông tin dịch vụ khách hàng khác.'
+  utter_ThoiGian_GiaiQuyet_ThayDoiEmail:
+    - 'Thời gian giải quyết đăng ký, thay đổi địa chỉ nhận email: khi nhận được yêu cầu'
+
+###Nhóm 7 - Tiếp nhận đăng ký dịch vụ (TiepNhan-DangKy-DichVu)
+  utter_ThuTuc_TiepNhan_DK_DV:
+  - text: "Quý khách vui lòng chọn thủ tục muốn xem về tiếp nhận đăng ký sử dụng dịch vụ dưới đây"
+    buttons:
+    - title: "Đăng ký số ĐT"
+      payload: "Đăng ký số ĐT"
+    - title: "Đăng ký email"
+      payload: "Đăng ký email"
+
+###Nhóm 5 - Tra cứu tình trạng thanh toán (TraCuu-TinhTrang-ThanhToan)
+  utter_Ktra_ThanhToan:
+    - 'Sau khi thanh toán tiền điện, Khách hàng nhận hoá đơn điện tử bằng cách vào chuyên mục “EVN HANOI và Khách hàng” trong trang Web Internet của EVN HANOI (http://www.evnhanoi.com.vn) hoặc nhận qua email bằng cách đăng nhập vào địa chỉ email đã đăng ký của khách hàng để tra cứu, xem và tải thông tin hóa đơn tiền điện (nếu khách hàng đăng ký nhận hoá đơn qua email).'
+
+###Chung - Các nhóm dịch vụ (Chung)
+  utter_Nhom_HDMBD:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về hợp đồng mua bán điện"
+    buttons:
+    - title: "Thay đổi công suất"
+      payload: "Thay đổi công suất"
+    - title: "Đổi chủ thể HĐMBĐ"
+      payload: "Đổi chủ thể HĐMBĐ"
+    - title: "Gia hạn HĐMBĐ"
+      payload: "Gia hạn HĐMBĐ"
+    - title: "Chấm dứt HĐMBĐ"
+      payload: "Chấm dứt HĐMBĐ"
+    - title: "Thay đổi mục đích"
+      payload: "Thay đổi mục đích"
+    - title: "Thay đổi định mức"
+      payload: "Thay đổi định mức"
+    - title: "Thay đổi vị trí TBĐĐ"
+      payload: "Thay đổi vị trí TBĐĐ"
+    - title: "Tạm ngừng sử dụng"
+      payload: "Tạm ngừng sử dụng"
+    - title: "Cấp điện trở lại"
+      payload: "Cấp điện trở lại"
+
+  utter_nhom_YC_HeThongDoDem:
+  - text: "Quý khách muốn yêu cầu kiểm tra hay kiểm định thiết bị đo đếm?"
+    buttons:
+    - title: "Kiểm tra thiết bị"
+      payload: "Kiểm tra thiết bị"
+    - title: "Kiểm định thiết bị"
+      payload: "Kiểm định thiết bị"
+
+  utter_Nhom_Dk_ThanhToan:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về đăng ký thanh toán tiền điện"
+    buttons:
+    - title: "Các hình thức TTTĐ"
+      payload: "Các hình thức TTTĐ"
+    - title: "Trích nợ tự động"
+      payload: "Trích nợ tự động"
+
+  utter_NhomTiepNhan_DKDV:
+  - text: "Quý khách đang quan tâm về đăng ký/thay đổi số điện thoại nhận tin nhắn hay email?"
+    buttons:
+    - title: "Số điện thoại"
+      payload: "Số điện thoại"
+    - title: "Email"
+      payload: "Email"
+
+  utter_Nhom_TraCuu_ThongTin:
+  - text: "Xin vui lòng lựa chọn các thông tin bên dưới mà Quý khách hàng đang quan tâm về tra cứu thông tin"
+    buttons:
+    - title: "Tra lịch cắt điện"
+      payload: "Tra lịch cắt điện"
+    - title: "Tra lịch ghi chỉ số"
+      payload: "Tra lịch ghi chỉ số"
+    - title: "Tra giá bán điện"
+      payload: "Tra giá bán điện"
+    - title: "Tra cứu điểm thu"
+      payload: "Tra cứu điểm thu"
+    - title: "Tra chỉ số điện"
+      payload: "Tra chỉ số điện"
+    - title: "Tra sản lượng điện"
+      payload: "Tra sản lượng điện"
+    - title: "Tra hóa đơn"
+      payload: "Tra hóa đơn"
+    - title: "Tư vấn sử dụng điện"
+      payload: "Tư vấn sử dụng điện"
+
+  utter_nhom_Cap_DV_Moi:
+  - text: "Vui lòng chọn thông tin bên dưới mà Quý khách hàng đang quan tâm về nhóm dịch vụ cấp mới"
+    buttons:
+    - title: "Cấp điện hạ áp"
+      payload: "Cấp điện hạ áp"
+    - title: "Cấp điện trung áp"
+      payload: "Cấp điện trung áp"
+
+  utter_nhom_DV_CapMoi:
+  - text: "Vui lòng chọn thông tin bên dưới mà Quý khách hàng đang quan tâm về nhóm dịch vụ cấp mới"
+    buttons:
+    - title: "Cấp điện hạ áp"
+      payload: "Cấp điện hạ áp"
+    - title: "Cấp điện trung áp"
+      payload: "Cấp điện trung áp"
+
+  utter_DanhMuc_HoTro:
+  - text: "Hiện nay EVNHANOI đang cung cấp 7 nhóm dịch vụ trực tuyến. Quý khách có thể lựa chọn nhóm dịch vụ mình quan tâm"
+    buttons:
+    - title: "Dịch vụ cấp điện mới"
+      payload: "Dịch vụ cấp điện mới"
+    - title: "Hợp đồng mua bán điện"
+      payload: "Hợp đồng mua bán điện"
+    - title: "Yêu cầu về hệ thống đo đếm"
+      payload: "Yêu cầu về hệ thống đo đếm"
+    - title: "Đăng ký thanh toán tiền điện"
+      payload: "Đăng ký thanh toán tiền điện"
+    - title: "Tra cứu thông tin"
+      payload: "Tra cứu thông tin"
+    - title: "Báo sự cố mất điện"
+      payload: "Báo sự cố mất điện"
+    - title: "Tiếp nhận đăng ký dịch vụ của khách hàng"
+      payload: "Tiếp nhận đăng ký dịch vụ của khách hàng"
+
+  utter_ThanhToan_TienDien:
+  - text: "Quý khách muốn hỏi gì về thanh toán tiền điện ạ"
+    buttons:
+    - title: "Đăng ký thanh toán"
+      payload: "Đăng ký thanh toán"
+    - title: "Tình trạng thanh toán"
+      payload: "Tình trạng thanh toán"
+
+  utter_HD_SD_Chatbot:
+    - 'Quý khách vui lòng xem nội dung hướng dẫn sử dụng chatbot tại đây:
+       Hướng dẫn sử dung (webview http://g3g4.vn/evnhn/help.jsp)'
+  utter_NeuChuaTTTienDien:
+    - 'Quy định điều kiện, trình tự ngừng, giảm mức cung cấp điện:
+    
+       Căn cứ theo Khoản 2 Điều 10 tại Thông tư số: 30 /2013/TT-BCT của Bộ Công thương ngày 14 tháng 11 năm 2013 quy định điều kiện, trình tự ngừng, giảm mức cung cấp điện quy định như sau:
+       
+       Đối với trường hợp quy định tại Khoản 2 Điều 7 Thông tư này:
+       
+       a) Trường hợp không có thỏa thuận lùi ngày thanh toán tiền điện và bên mua điện đã được bên bán điện thông báo về việc thanh toán tiền điện 02 (hai) lần thì sau 15 ngày kể từ ngày thông báo lần đầu tiên, bên bán điện có quyền ngừng cấp điện cho bên mua điện;
+
+       b) Trường hợp bên mua điện có đề nghị thoả thuận và được bên bán điện đồng ý lùi ngày thanh toán tiền điện, nếu quá thời hạn thoả thuận lùi ngày thanh toán tiền điện mà bên mua điện vẫn chưa thanh toán đủ các khoản tiền còn nợ, bên bán điện có quyền ngừng cấp điện cho bên mua điện;
+
+       c) Khi thực hiện ngừng cấp điện, bên bán điện phải thông báo cho bên mua điện trước thời điểm ngừng cấp điện ít nhất 24 giờ và không phải chịu trách nhiệm về các thiệt hại do việc ngừng cấp điện gây ra.'
+  utter_PhanAnh_DaTT_TienDien:
+    - 'Quý khách vui lòng liên hệ Tổng đài CSKH 19001288 trực 24/7 để được hỗ trợ kịp thời.'
+  utter_KhungGio_TinhBieuGiaDien:
+    - 'Quy định của bộ công thương về khung giờ tính biểu giá điện như sau:
+    
+       1. Giờ cao điểm tính giá điện (giá cao) gồm:
+       
+       a) Gồm các ngày từ thứ Hai đến thứ Bảy
+       
+       - Từ 09 giờ 30 đến 11 giờ 30 (02 giờ);
+       
+       - Từ 17 giờ 00 đến 20 giờ 00 (03 giờ).
+       
+       b) Ngày Chủ nhật: không có giờ cao điểm.
+
+       2. Giờ bình thường
+       
+       a) Gồm các ngày từ thứ Hai đến thứ Bảy
+       
+       - Từ 04 giờ 00 đến 9 giờ 30 (05 giờ và 30 phút);
+       
+       - Từ 11 giờ 30 đến 17 giờ 00 (05 giờ và 30 phút);
+       
+       - Từ 20 giờ 00 đến 22 giờ 00 (02 giờ).
+       
+       b) Ngày Chủ nhật: Từ 04 giờ 00 đến 22 giờ 00 (18 giờ).
+
+       3. Giờ thấp điểm
+       
+       Tất cả các ngày trong tuần: từ 22 giờ 00 đến 04 giờ 00 sáng ngày hôm sau (06 giờ).'
+  utter_DS_PhongGD_KH:
+    - 'Quý khách vui lòng tham khảo về danh sách phòng giao dịch (Điểm thu hộ mọi lúc mọi nơi) tại đường link dưới đây:
+    
+       http://cskh.evnhanoi.vn/TraCuuPhongGD?strTitle=Danh sách phòng giao dịch khách hàng'
+  utter_GiaiThich_Gia_DienCao:
+    - 'Thông thường tiền điện tăng là do tăng các thiết bị tiêu thụ khi thay đổii thời tiết. Nếu có dấu hiệu bất thường vui lòng liên hệ tổng đài CSKH.'
+
+actions:
+
+###Chào hỏi (greet)
+ - utter_greet
+ - utter_CamOn
+ - utter_facebook_welcome
+ - utter_unclear
+ - utter_nhom_YC_HeThongDoDem
+###Đăng nhập (DangNhap)
+ - utter_doi_mk
+ - utter_HD_DangNhap
+ - utter_ask_password
+ - utter_customer_code
+ - utter_TruyVanPD
+ - utter_moiNhapMK
+###Nhóm 5 - Tra cứu lịch ngừng cấp điện (TraCuu-Lich-NgungCapDien)
+ - utter_ThuTuc_TraCuu_Ngung_capdien
+ - utter_HoSo_TraCuu_Ngung_capdien
+ - utter_KhieuNaiMatDien
+###Chửi tục (ChuiTuc)
+ - utter_ChuiTuc
+###Nhóm 1 - Đăng ký mua điện trung áp (DangKy-Mua-Dien-TrungAp)
+ - utter_KenhTiepNhan_DK_TrungAp
+ - utter_HoSo_DK_TrungAp
+ - utter_ChiPhi-DK-TrungAp
+ - utter_Tgian_GQ-TrungAp
+###Nhóm 1 - Đăng ký mua điện hạ áp (DangKy-Mua-Dien-HaAp)
+ - utter_HD-ThuTuc-Chung
+ - utter_HD-ThuTuc-DienNganHan
+ - utter_HD-ThuTuc-dienNgoaiSinhHoat
+ - utter_HD-ThuTuc-dienSinhhoat
+ - utter_CapDienMoiNganhan
+ - utter_KenhTiepNhan-HaAp
+ - utter_HoSo-DK-Sinhhoat
+ - utter_ChiPhi-DK-HaAp
+ - utter_Tgian_GQ-DK-HaAp
+ - utter_HoSo-DK-NgoaiSinhhoat
+ - utter_HoSo-DK-NganHan
+ - utter_DK-mua-DienNganHan
+ - utter_DK-mua-DienHaAp
+ - utter_sdung_ngoai_mdich_sinhHoat
+ - utter_MuaDienNganHan
+###Nhóm 1 - Theo dõi tiến độ cấp điện (TheoDoi-TienDo-CapDien)
+ - utter_TheoDoiTienDoCapDien
+###Nhóm 2 - Thay đổi công suất sử dụng điện áp (ThayDoi_CongSuat_SD_DienAp)
+ - utter_HD-ThuTuc-ThayDoi_CS_SuDung
+ - utter_NgungGiamMuc_CungcapDien
+ - utter_ThayDoiCongSuatSuDung
+ - utter_HoSo_ThayDoi_CS_SuDung
+ - utter_ChiPhiThayDoi_CS_SuDung
+ - utter_ThoiGianThayDoi_CS_SuDung
+ - utter_TH_KH_ThayDoi_CS
+###Nhóm 2 - Thay đổi chủ thể hợp đồng mua bán điện (sinh hoạt, ngoài sinh hoạt) (ThayDoi-ChuThe-MuaBanDien)
+ - utter_ThuTuc_ThayDoi_ChuThe_HD_MuaBanDien
+ - utter_Chiphi_Chung
+ - utter_Tgian_Gquyet_ThayDoiHD
+ - utter_MakeClear_ThayDoiChuTheHD
+ - utter_HoSo_ThayDoi_ChuThe_HD
+###Nhóm 2 - Gia hạn hợp đồng mua bán (dưới 12 tháng) (GiaHan_HD_MuaBan_duoi12thang)
+ - utter_HoSo_GiaHan_HDMBD
+ - utter_Tgian_GiaHan_HDMBD
+###Nhóm 2 - Thanh lý hợp đồng mua bán (ThanhLy-HopDong-MuaBan)
+ - utter_ChamDut_HDMBD
+ - utter_HoSo_ChamDut_HDMBD
+ - utter_Tgian_Gquyet_ChamDut_HDMBD
+ - utter_ThongBao_ChamDut_HDMBD
+ - utter_Vde_GiaiQuyet_khi_ThanhLy_HD
+###Nhóm 2 - Thay đổi mục đích sử dụng điện (sinh hoạt, ngoài sịnh hoạt) (ThayDoi-MucDich-SuDungDien)
+ - utter_Thutuc_ThayDoi_MuchDich_SD
+ - utter_ThayDoi_MucDich_SD_Dien
+ - utter_HoSo_ThayDoi_MucDich_SD
+ - utter_Tgian_Gquyet_ThayDoi-MuchDich-SD
+###Nhóm 2 - Thay đổi định mức số hộ dùng chung công tơ (ThayDoi_DinhMuc_SoHo_DungChung_CongTo)
+ - utter_ThayDoi_DinhMuc_SoHo_DungChungCongTo
+ - utter_HoSoThayDoi_DinhMuc_SoHo_DungChungCongTo
+ - utter_ThoiGianThayDoi_DinhMuc_SoHo_DungChungCongTo
+###Nhóm 2 - Thay đổi vị trí thiết bị đo đếm hạ áp (ThayDoi_ViTri_ThietBiDoDem_HaAp)
+ - utter_ThayDoi_ViTri_ThietBi_DoDem
+ - utter_HoSoThayDoi_ViTri_ThietBi_DoDem
+ - utter_ChiphiThayDoi_ViTri_ThietBi_DoDem
+ - utter_ThoiGianThayDoi_ViTri_ThietBi_DoDem
+ - utter_ViTri_LapDat_CongTo
+###Nhóm 2 - Yêu cầu tạm ngừng sử dụng điện (YeuCau-TamNgung-SuDungDien)
+ - utter_Thutuc_YC_TamNgung_SD
+ - utter_YC_TamNgung_SD
+ - utter_HoSoYC_TamNgung_SD
+ - utter_ChiPhi_YC_TamNgung_SD
+ - utter_ThoiGianYC_TamNgung_SD
+ - utter_DieuKien_TamNgung_SD
+###Nhóm 2 - Cấp điện trở lại sau khi khách hàng tạm ngừng sử dụng điện (CapDien_TroLai_Sau_TamDung)
+ - utter_HoSoYC_CapDienTroLai
+ - utter_ChiPhiYC_CapDienTroLai
+ - utter_ThoiGian_CapDienTroLai
+###Nhóm 3 - Yêu cầu kiểm tra hệ thống đo đếm (YeuCau_KiemTra_HT_DoDem)
+ - utter_CongTo_DoDem_1Pha_CoKhi
+ - utter_KenhTiepNhan-YC-KtraDoDem
+ - utter_Tgian_Gquyet_YCKtra_DoDem
+ - utter_ChuKy_Ktra_DoDem
+ - utter_HD-ThuTuc-Ycau-Ktra-DoDem
+###Nhóm 3 - Yêu cầu kiểm định hệ thống đo đếm (YeuCau_KiemDinh_HT_DoDem)
+ - utter_HD_ThuTuc_Ycau_Kdinh_DoDem
+ - utter_KenhTiepNhan_YC_Kdinh_DoDem
+ - utter_ChiPhi_YC_Kdinh_DoDem
+ - utter_Tgian_Gquyet_YC_Kdinh_DoDem
+ - utter_ChuKy_Kdinh_DoDem
+###Nhóm 4 -  Đăng ký thanh toán tiền điện (DangKy-ThanhToan)
+ - utter_KenhTiepNhan_DK_ThanhToanTienDien
+ - utter_HinhThuc_ThanhToan-TienDien
+ - utter_HD_ThuTuc_ThayDoi_ThanhToan_Trich_NoTuDong
+ - utter_HD_ThanhToan_TrucTuyen
+ - utter_HD_ThayDoi_ThanhToan_Trich_NoTuDong
+ - utter_DiaChi_ThanhToan_HoaDon_TaiQuan
+ - utter_ThayDoi_ThanhToan_Trich_NoTuDong
+ - utter_ThanhToan_QuaNganHang
+ - utter_LamRo_ThanhToan_TaiPhongGD
+ - utter_ThanhToan_TaiPhongGD_NHLienKet
+ - utter_ThanhToan_TaiPhongGD_NHKhac
+ - utter_ThanhToan_InternetBanking_MobileBanking
+ - utter_LamRo_ThanhToan_quaToChucTrungGian
+ - utter_ThanhToan_TaiDiemThuOffline
+ - utter_ThanhToan_ECPAY
+ - utter_ThanhToan_Payoo
+ - utter_ThanhToan_MOMO
+ - utter_ThanhToan_VTC
+ - utter_DS_NganHang_LienKet
+ - utter_ThanhToan_BankPlus
+ - utter_DS_TaiKhoan_ThuTien
+###Nhóm 5 - Tra cứu lịch ghi chỉ số (TraCuu-Lich-GhiChiSo)
+ - utter_ThuTuc_TraCuu_LichGhiChiSo
+ - utter_TrachNhiem_NV_GhiChiSo
+ - utter_LichGhi_ChiSo_Congto_DoDem
+ - utter_LichGhi_ChiSo
+ - utter_HD_TraCuu_LichGhi_ChiSo
+###Nhóm 5 - Tra cứu thông tin giá bán điện (TraCuu-ThongTin-GiaDien)
+ - utter_QuyDinh_GiaBanDien_BoCongThuong
+ - utter_TraCuu_TT_GiaBanDien
+ - utter_HD_TraCuu_TT_GiaDien
+ - utter_TT_GiaDien
+ - utter_GiaBanDien_3Gia
+ - utter_GiaDien_SinhHoat
+ - utter_GiaDien_BanLe_SanXuat
+ - utter_GiaDien_BanLe_KDDV
+ - utter_GiaDien_BanLe_HanhChinhSuNghiep
+ - utter_GiaDien_BanLe_NongThon
+ - utter_GiaDien_BanBuon_KhuCN
+ - utter_GiaDien_BanBuon_ToHopTM_DB
+ - utter_GiaDien_BanBuon_KhuTapTheDanCu
+ - utter_TraCuu_GiaBanLe
+ - utter_TraCuu_GiaBanBuon
+ - utter_GiaDien_BanBuon_KhuTapTheDanCu_TP_ThiXa
+ - utter_GiaDien_BanBuon_KhuTapTheDanCu_HuyenLy
+ - utter_GiaDien_NguoiThueNha
+###Nhóm 5 - Tra cứu điểm thu và các hình thức thu tiền điện (TraCuu-DiemThu-HinhThucThu)
+ - utter_TraCuu_DiemThu_HinhThucThu
+ - utter_DS_DiemThu_TienDien
+###Nhóm 5 - Tư vấn sử dụng điện an toàn, tiết kiệm hiệu quả (TuVan-SuDungDien)
+ - utter_TuVan_SD_Dien_AnToanTK_HieuQua
+ - utter_TuVan_SD_Dien_chung
+###Nhóm 5 - Tra cứu chỉ số điện năng tiêu thụ (TraCuu-ChiSoDien)
+ - utter_ThuTucTraCuu_ChiSoDienNang
+ - utter_HeThong_DoDem_MatKH
+ - utter_Loai_KH_CoTheTraCuu_ChiSoCongTo
+ - utter_ChiSo_DienNang_TieuThu
+ - utter_HD_TraCuu_ChiSo_DienNang_TieuThu
+###Nhóm 5 - Tra cứu sản lượng, tình hình tiêu thụ điện (TraCuu-TinhHinhTieuThu)
+ - utter_SanLuong_DienNang_TieuThu
+ - utter_HinhThuc_TraCuu_SanLuong_TieuThu
+ - utter_HD_CachTraCuu_SanLuongDien_HangThang
+###Nhóm 5 - Tra cứu hóa đơn tiền điện (TraCuu-HoaDonDien)
+ - utter_ThuTuc_TraCuu_HoaDon
+ - utter_LamRo_HoaDonTienDien
+ - utter_HinhThuc_TraCuu_HoaDon
+ - utter_DiaChiDownload_HoaDon
+ - utter_HD_In_Tai_HoaDon
+###Nhóm 5 - Tra cứu qua đầu số 8088 (TraCuu-DauSo8088)
+ - utter_TraCuu_8088
+###Nhóm 5 - Hướng dẫn thủ tục dịch vụ (HuongDan-ThuTuc-DichVu)
+ - utter_LamRo_TraCuu_ThuTuc
+ - utter_LamRo_ThuTuc_DV_CapDienMoi
+ - utter_LamRo_ThuTuc_DV_HDMBD
+ - utter_LamRo_ThuTuc_YC_HT_DoDem
+ - utter_LamRo_ThuTuc_TraCuu_ThongTin
+ - utter_LamRo_ThuTuc_TuVan_SD_Dien_TietKiem
+ - utter_YeuTo_AnhHuong_TyLe_ThuThapDuLieu_PLC
+ - utter_QuyDinh_BoCongThuong_GioThapDiem
+ - utter_ThongBao_ThayDinhKyCongTo
+ - utter_SuaChuaLuoiDienHaThe
+###Nhóm 6 - Báo sự cố mất điện (Bao-SuCo-MatDien)
+ - utter_ThoiGian_XuLy_SuCo
+ - utter_NhomBaoMatDien
+###Nhóm 7 - Đăng ký thay đổi số điện thoại nhận tin nhắn (DangKy-ThayDoi-SDT)
+ - utter_ThoiGian_guiSMS_ThongBao
+ - utter_LamRo_ThayDoi_SDT_NhanSMS
+ - utter_HD_ThuTuc_ThayDoi_SDT_NhanSMS
+ - utter_ThuTuc_ThayDoi_SDT_nhan_SMS
+ - utter_Tgian_GQ_ThayDoi
+###Nhóm 7 - Đăng ký thay đổi địa chỉ email (DangKy-ThayDoi-Email)
+ - utter_LamRo_ThayDoi_email
+ - utter_HD_ThuTuc_ThayDoi_email
+ - utter_ThuTuc_ThayDoi_Email
+ - utter_ThoiGian_GiaiQuyet_ThayDoiEmail
+###Nhóm 7 - Tiếp nhận đăng ký dịch vụ (TiepNhan-DangKy-DichVu)
+ - utter_ThuTuc_TiepNhan_DK_DV
+###Nhóm 5 - Tra cứu tình trạng thanh toán (TraCuu-TinhTrang-ThanhToan)
+ - utter_Ktra_ThanhToan
+###Chung - Các nhóm dịch vụ (Chung)
+ - utter_Nhom_HDMBD
+ - utter_Nhom_Dk_ThanhToan
+ - utter_NhomTiepNhan_DKDV
+ - utter_Nhom_TraCuu_ThongTin
+ - utter_nhom_Cap_DV_Moi
+ - utter_nhom_DV_CapMoi
+ - utter_DanhMuc_HoTro
+ - utter_ThanhToan_TienDien
+ - utter_HD_SD_Chatbot
+ - utter_NeuChuaTTTienDien
+ - utter_PhanAnh_DaTT_TienDien
+ - utter_KhungGio_TinhBieuGiaDien
+ - utter_DS_PhongGD_KH
+###Nhóm 5 - Tra cứu tiền điện (TraCuu-TinhTrang-ThanhToan)
+ - utter_GiaiThich_Gia_DienCao
+###Khen/compliment (Khen)
+ - utter_khen
+###Chê/unhappy (Che)
+ - utter_che
+###Góp ý/feedback (GopY)
+ - utter_PhanHoiGopY
+ - utter_GopY
+###Chào Tạm biệt/End session (goodbye)
+ - utter_goodbye
+###TuVan-SuDungDien
+ - utter_TuVan_SD_Dien_AnToan
+ - utter_TuVan_SD_Dien_HieuQua
+ - action_restarted
+ - action_slot_reset
+ - action_get_lichgcs
+ - action_sp_login
